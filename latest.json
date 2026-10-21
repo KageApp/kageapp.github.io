@@ -1,11 +1,11 @@
 {
-  "version": "0.6.1",
-  "notes": "Correções:\n\n- o seletor de papéis de parede do macOS e o pedido de pareamento abrem por cima de tudo",
-  "pub_date": "2026-10-21T18:35:22Z",
+  "version": "0.7.0",
+  "notes": "Novidades:\n\n- ajustes por monitor",
+  "pub_date": "2026-10-21T18:40:09Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDd0MHc0c29SRW5Sb3BhbmZrdHJlL1ArQ1FjUDVFeDAzUDQwTmZCbFNKYXhtWS9PaDdBMHl6bUVTeEFBKzdYa0JwMWtLdU1uUUFINkY4dWNCUnVsbFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA3NzE3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC42LjEKcDM0T0IxWEd6TEVFZ2doY0tPR1lFTkpiZjB4dGpBSUJLK1VRWmprK2hpempuMXBJNGNlMngydHBweTU4K1ZPUys4OEVoOFpRa0MrMmRCUW1BYWtqRFE9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.6.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHp2eEkvZmo5WEJXTWJ3WmZ4ZStUaEQ4ay9la0hLcHNWRDRVSVFpdnZJazkreFRnczQ1aE9xZ0pYeHlmRVBQTncrbHVpSk5pL3BNTm5CR1JFWEtDSHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA4MDA0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC43LjAKTnRCWUt1NENST21paStJQXdxQ0JGOEtlZkt5UXVRcFE0VDRnM0poc1p4YWdPMXRZOUtaMTAyU0VRQW5Menpjbmlrc3NIQjRXUHVCUW1EczJraWV6Qmc9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.7.0/Kage-mac.app.tar.gz"
     }
   }
 }
