@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.5.0",
+    "date": "2026-10-21",
+    "notes": "Novidades:\n\n- brilho que se cura sozinho e monitores que não são OLED",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.5.0/Kage-mac.dmg"
+  },
+  {
     "version": "0.4.1",
     "date": "2026-10-21",
     "notes": "Correções:\n\n- computador dobrado no grupo, brilho baixado por engano e conjunto chegando sem as fotos\n- o seletor de papéis de parede do macOS ficava embaralhado\n- sem Escurecer/Apagar todos num monitor compartilhado, e Juntar não pede de novo a quem já está no grupo",
