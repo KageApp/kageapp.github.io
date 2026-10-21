@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.9.0",
+    "date": "2026-10-21",
+    "notes": "Novidades:\n\n- badge OLED no cartão, chave de OLED dentro da configuração da tela e papel de parede em página própria",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.9.0/Kage-mac.dmg"
+  },
+  {
     "version": "0.8.1",
     "date": "2026-10-21",
     "notes": "Correções:\n\n- ícone e nome centralizados nas abas\n- singular quando só um computador está atrás",

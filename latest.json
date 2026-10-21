@@ -1,11 +1,11 @@
 {
-  "version": "0.8.1",
-  "notes": "Correções:\n\n- ícone e nome centralizados nas abas\n- singular quando só um computador está atrás",
-  "pub_date": "2026-10-21T18:49:52Z",
+  "version": "0.9.0",
+  "notes": "Novidades:\n\n- badge OLED no cartão, chave de OLED dentro da configuração da tela e papel de parede em página própria",
+  "pub_date": "2026-10-21T18:57:40Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDh5TU1QT2VIOGFJeHZQL2dxVDJOUjZFa0NoQW9YVEFGMWhyWTNzcEc4U1VON0s5dlJNeUdaWlk1eDBpajlCb1Nabll1MUtPcGVtQmtrNGo5ZWpuYWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA4NTg3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC44LjEKdnVua1pUZ0pENU9mSG8zNzJpbk5FcXdRdlhlVjFNS3NRUjBZL3Mzek82UC9xckNiSUFvOWc3Q2pRM1RXcEtHdTlSZitOVmp1YytqaEx6SlBUM2M3RFE9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.8.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHcvbnYxTUU0TzNVUjVnbkZLc3VxT0RLa05uNituSVhrSDlvcHNMSHhRS3A1ZWpUQ05FNjZ0NHlFSWx4WnVoVFpKNHFiV0NPVSsvb3pxVXh3UDIwSkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5MDU1CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC45LjAKYW1ZdkJDLzc3UVdiWjRBVmV4RUpaUFV3UjBMd0QzYysxeitiMldJdndEZHVZa3FnSlR6eWdzdVRjNUQ0U3Q1Yk1ZRGxMM3FIUWZZRVlINXFyQzBLQ2c9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.9.0/Kage-mac.app.tar.gz"
     }
   }
 }
