@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.3.0",
+    "date": "2026-10-21",
+    "notes": "Novidades:\n\n- brilho do monitor no Kage, brilho de dia e de noite e um guia que corrige\n- conjuntos como cartões e Kage Wallpaper com movimento ajustável\n- o Kage fala com o monitor pelo cabo de vídeo (DDC/CI)\n- todos os computadores são iguais, sem hub, e o brilho pelo cabo vale para todos os monitores\n\nCorreções:\n\n- avisos rápidos sempre traduzidos, só para o que importa, e Atualizações mais arrumada\n- notificações voltam a chegar e o satélite pede acesso à rede local",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.3.0/Kage-mac.dmg"
+  },
+  {
     "version": "0.2.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- Kage Wallpaper e conjuntos de papéis de parede, inclusive os do macOS\n- pareamento sem código e um cartão por monitor em Computadores\n\nCorreções:\n\n- trocar o estilo da camada não faz mais o papel de parede da empresa reaparecer",

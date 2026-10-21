@@ -1,11 +1,11 @@
 {
-  "version": "0.2.0",
-  "notes": "Novidades:\n\n- Kage Wallpaper e conjuntos de papéis de parede, inclusive os do macOS\n- pareamento sem código e um cartão por monitor em Computadores\n\nCorreções:\n\n- trocar o estilo da camada não faz mais o papel de parede da empresa reaparecer",
-  "pub_date": "2026-10-21T17:23:29Z",
+  "version": "0.3.0",
+  "notes": "Novidades:\n\n- brilho do monitor no Kage, brilho de dia e de noite e um guia que corrige\n- conjuntos como cartões e Kage Wallpaper com movimento ajustável\n- o Kage fala com o monitor pelo cabo de vídeo (DDC/CI)\n- todos os computadores são iguais, sem hub, e o brilho pelo cabo vale para todos os monitores\n\nCorreções:\n\n- avisos rápidos sempre traduzidos, só para o que importa, e Atualizações mais arrumada\n- notificações voltam a chegar e o satélite pede acesso à rede local",
+  "pub_date": "2026-10-21T17:58:59Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDFSdk01ZVhwaWhPVERsZjNkeFc2MVJSRFVwRmM1SUtBaTgyQTkxUHE3SFFCVTJyOUNrdTVoNDZxU1RMNkFOa2tGK2hkU2ZJdWtRMXhjOVFSaTAraXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAzMzM5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yLjAKdkowTllROTFLcDVQU1I4UWgvdG0vRlVub2xydS9JdFY3dTB0bGdWU0lUMHZuZk4wc3lQT1h3dFkreWZodnl2YXpaK3U4ckdVazJBcVJvM081ZjFjQmc9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.2.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHhJVlVXNFBLbEdsZlZ6MDBMT2RhellOTHA0NkxIWWZCSEh1OGJQQ0xSNFhoM29EaGFxaG5JYXRwSk9Vc3NWQXZicUdsbHAxTVR6eXdFcStFWEFZZHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA1NTM0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zLjAKOEs4R2dOODYra2NhNVlYYms3V2Z4MzJXbWl4M2tOU1BlbTZCdTlYOEJ0RE1JSStjZUdla21LT2FHbDZPaGFSWUxMbVo3QkRLWERFT01qSTR5dTV0RHc9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.3.0/Kage-mac.app.tar.gz"
     }
   }
 }
