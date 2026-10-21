@@ -1,11 +1,11 @@
 {
-  "version": "0.6.0",
-  "notes": "Novidades:\n\n- barras de progresso nas atualizações, a sua e a dos outros computadores",
-  "pub_date": "2026-10-21T18:32:45Z",
+  "version": "0.6.1",
+  "notes": "Correções:\n\n- o seletor de papéis de parede do macOS e o pedido de pareamento abrem por cima de tudo",
+  "pub_date": "2026-10-21T18:35:22Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDd6Um1IaUpEVFJVM1NMNDVKM3lSa3d2elZBTStGeFI5TGorYy94RmlSbW1DTGMvd29uSWVONHU3RHovWWlmR2RtSE9WSC9uV0pFNCttMHN2dlJQWmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA3NTU4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC42LjAKbzZic1hOejFETGc5K3U3eXNyQ2JzdHpIT0lRS0xrMlpreXRuOWN5RWNwZXQ4dkFsbGhxNnQxQ1gvV2wxTnpzeDArbkFWVWJwMlRFV1JiOFlIS3RNQ3c9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.6.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDd0MHc0c29SRW5Sb3BhbmZrdHJlL1ArQ1FjUDVFeDAzUDQwTmZCbFNKYXhtWS9PaDdBMHl6bUVTeEFBKzdYa0JwMWtLdU1uUUFINkY4dWNCUnVsbFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA3NzE3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC42LjEKcDM0T0IxWEd6TEVFZ2doY0tPR1lFTkpiZjB4dGpBSUJLK1VRWmprK2hpempuMXBJNGNlMngydHBweTU4K1ZPUys4OEVoOFpRa0MrMmRCUW1BYWtqRFE9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.6.1/Kage-mac.app.tar.gz"
     }
   }
 }

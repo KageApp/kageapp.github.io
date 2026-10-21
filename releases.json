@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.6.1",
+    "date": "2026-10-21",
+    "notes": "Correções:\n\n- o seletor de papéis de parede do macOS e o pedido de pareamento abrem por cima de tudo",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.6.1/Kage-mac.dmg"
+  },
+  {
     "version": "0.6.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- barras de progresso nas atualizações, a sua e a dos outros computadores",
