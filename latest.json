@@ -1,11 +1,11 @@
 {
-  "version": "0.5.0",
-  "notes": "Novidades:\n\n- brilho que se cura sozinho e monitores que não são OLED",
-  "pub_date": "2026-10-21T18:26:43Z",
+  "version": "0.5.1",
+  "notes": "Correções:\n\n- escurecer, voltar e apagar ficam no monitor, executados por quem está com a imagem nele",
+  "pub_date": "2026-10-21T18:29:29Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDlBMHB6a2hDNG1zR0RIWjROWUNJRWxkMFF4SzRGM2hWQkxUTU5HMnlsTlhRbUV5cHFlOW14R1lYbERtbHR0SG5ZWW9YdHNNNm94Q3YxaTNqMno2Y1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA3MTk4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC41LjAKRkdreGxDbE0xT3hGNHBaZXQzU2RoTjdLTTdKcEdrVGk2bDBqVHh6SElZdnJvTktySGRxMW1KeUF1L0MrZWp4REtPbm5XTHVWaEI1UEtxTDJJbnZNQmc9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.5.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDhTemNWUGZMYmhNOEU4aytpbm1peFhPeUdjUm5sN29jR2syOFBFWnRsWnlsMHFGYWsvS25oQkpmZTBobDVucDM3Q2VPWlEzSGIrUGNHUlZ5WkhDbFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA3MzYzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC41LjEKREJvc2VLNzBLQnFqWGV5eEkyUVA5Rk1sSmdTNnBNaWNDN0dsUGgyOHZTTDV6VjRZRHhCZlkvZ3FITTBLRitDNTNudTZFR1JOMm9JNXpabi9McWpxQXc9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.5.1/Kage-mac.app.tar.gz"
     }
   }
 }

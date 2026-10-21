@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.5.1",
+    "date": "2026-10-21",
+    "notes": "Correções:\n\n- escurecer, voltar e apagar ficam no monitor, executados por quem está com a imagem nele",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.5.1/Kage-mac.dmg"
+  },
+  {
     "version": "0.5.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- brilho que se cura sozinho e monitores que não são OLED",
