@@ -72,7 +72,7 @@
     <h2>Primeira abertura no Mac</h2>
     <p>O Kage ainda não é assinado pela Apple, então o macOS pede uma confirmação na primeira vez:</p>
     <ol>
-      <li>Abra o <code>Kage-mac.dmg</code> e arraste o Kage para Aplicativos.</li>
+      <li>Abra o <code>Kage-mac-…dmg</code> e arraste o Kage para Aplicativos.</li>
       <li>Abra o Kage. O macOS vai dizer que não pode verificar o desenvolvedor; clique em <strong>OK</strong>.</li>
       <li>Vá em <strong>Ajustes do Sistema › Privacidade e Segurança</strong>, role até o aviso do Kage e clique em
         <strong>Abrir Mesmo Assim</strong>.</li>
@@ -100,6 +100,8 @@
         const box = document.getElementById("releases");
         if (!releases.length) { box.innerHTML = "<p>Nenhuma versão publicada ainda.</p>"; return; }
         document.getElementById("version").textContent = `Versão ${releases[0].version} · Apple Silicon · macOS 13+`;
+        // The button downloads the versioned file (Kage-mac-x.y.z.dmg).
+        document.getElementById("dmg").href = releases[0].dmg;
         box.replaceChildren(...releases.map((r) => {
           const el = document.createElement("div");
           el.className = "release";

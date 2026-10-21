@@ -1,11 +1,11 @@
 {
-  "version": "0.12.3",
-  "notes": "Correções:\n\n- o Kage travava (janela vazia) com outro computador do grupo desligado",
-  "pub_date": "2026-10-21T20:17:33Z",
+  "version": "0.13.0",
+  "notes": "Novidades:\n\n- brilho organizado num cartão só por tela, e instalador com a cara do Kage",
+  "pub_date": "2026-10-21T20:42:15Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDlTMzIzN2lwSHdWcCtMNHNSWGQ3dmFBUEdsY0xaVitsSUdYeUJrK3d1aEZHaFBJaHlwL2dCYXhTMnlJQ21GdVNaRGFrckkwYU9EakFCMWFpYWFKZGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEzODQ3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMi4zCnQwNkM3TVd1QytLUng0cUlEaUpIanptZnJUeUd6L0RKTjFhc3NPakF4dGlwMzBPNTd3WXZNd3RMMG1xL21wMkROVC9ENXNuWkM4bWUxcjFPWUIwaUNRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.12.3/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDFxNjBzQUkra1dNeDk4NUFFVE9vdkh6SEd5S0ltYTVIL0FTUmxVWnVSYlo5S2NiQnFpTVRqcnhwNzVtdTZzZDZqSlNDRVR1bXNZSTlWNU5FVXJkSWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE1MzI5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMy4wCmRDMUxJWTBxeHFuMWZMeWRQbDB2QjVwVEpqemxLSFREd0JXVUtBYTRJSlNnMEM4RlExN2FkWDJTNnh0REtvZ0RQRnRnckNLS3dMUU1YMzhOYUhackNBPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.13.0/Kage-mac.app.tar.gz"
     }
   }
 }

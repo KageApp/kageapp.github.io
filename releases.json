@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.13.0",
+    "date": "2026-10-21",
+    "notes": "Novidades:\n\n- brilho organizado num cartão só por tela, e instalador com a cara do Kage",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.13.0/Kage-mac-0.13.0.dmg"
+  },
+  {
     "version": "0.12.3",
     "date": "2026-10-21",
     "notes": "Correções:\n\n- o Kage travava (janela vazia) com outro computador do grupo desligado",
