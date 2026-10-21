@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.6.0",
+    "date": "2026-10-21",
+    "notes": "Novidades:\n\n- barras de progresso nas atualizações, a sua e a dos outros computadores",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.6.0/Kage-mac.dmg"
+  },
+  {
     "version": "0.5.1",
     "date": "2026-10-21",
     "notes": "Correções:\n\n- escurecer, voltar e apagar ficam no monitor, executados por quem está com a imagem nele",

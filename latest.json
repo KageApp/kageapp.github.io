@@ -1,11 +1,11 @@
 {
-  "version": "0.5.1",
-  "notes": "Correções:\n\n- escurecer, voltar e apagar ficam no monitor, executados por quem está com a imagem nele",
-  "pub_date": "2026-10-21T18:29:29Z",
+  "version": "0.6.0",
+  "notes": "Novidades:\n\n- barras de progresso nas atualizações, a sua e a dos outros computadores",
+  "pub_date": "2026-10-21T18:32:45Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDhTemNWUGZMYmhNOEU4aytpbm1peFhPeUdjUm5sN29jR2syOFBFWnRsWnlsMHFGYWsvS25oQkpmZTBobDVucDM3Q2VPWlEzSGIrUGNHUlZ5WkhDbFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA3MzYzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC41LjEKREJvc2VLNzBLQnFqWGV5eEkyUVA5Rk1sSmdTNnBNaWNDN0dsUGgyOHZTTDV6VjRZRHhCZlkvZ3FITTBLRitDNTNudTZFR1JOMm9JNXpabi9McWpxQXc9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.5.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDd6Um1IaUpEVFJVM1NMNDVKM3lSa3d2elZBTStGeFI5TGorYy94RmlSbW1DTGMvd29uSWVONHU3RHovWWlmR2RtSE9WSC9uV0pFNCttMHN2dlJQWmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA3NTU4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC42LjAKbzZic1hOejFETGc5K3U3eXNyQ2JzdHpIT0lRS0xrMlpreXRuOWN5RWNwZXQ4dkFsbGhxNnQxQ1gvV2wxTnpzeDArbkFWVWJwMlRFV1JiOFlIS3RNQ3c9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.6.0/Kage-mac.app.tar.gz"
     }
   }
 }
