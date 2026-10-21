@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.17.0",
+    "date": "2026-10-21",
+    "notes": "Novidades:\n\n- janela de atualização com os passos",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.17.0/Kage-mac-0.17.0.dmg"
+  },
+  {
     "version": "0.16.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- KVM configurável por tela",

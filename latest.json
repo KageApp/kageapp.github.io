@@ -1,11 +1,11 @@
 {
-  "version": "0.16.0",
-  "notes": "Novidades:\n\n- KVM configurável por tela",
-  "pub_date": "2026-10-21T21:23:48Z",
+  "version": "0.17.0",
+  "notes": "Novidades:\n\n- janela de atualização com os passos",
+  "pub_date": "2026-10-21T21:33:11Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDM1b1FTaSszR1RTY3dxMndzM3d6eE5KTmlZNG1vblUzb09XVEZob09UditDVW1uUW5tbEJaNW5ZSUQ4bU05WGFGZi9kY0loWFg5VkpUeDhVRUp5V3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE3ODIzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNi4wCi9ZcWF4L0liTHNreFA3MTJXelFqOUUzQTY2Vi9ldzJNeWQ1VDNGMUw3MUU0c1BQSTRhRy9FY2Z1Mml4Q2tjVGd2UzExU09HRlRJTnBCTmlwd25vMUN3PT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.16.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHlOelBTM0Y1RUQ5L25UVWFqWG9QaFF3bXc5U0o4bHI4T0VSVHV3eTFuVlhBV2ppOHNxcStocUE3Q0NyZUxoTWZVRHF6dzdNS3h3a3ZvOHBqVkxta1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE4Mzg2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNy4wCjdZSWxYdUdrMkN0SFBCaUs4YkJLWmVkSklncjJ2RUNXQTNLaWJ3QzNJYlVjM3ZqNHNLR25QS1F6NHFiT1l1eko3U1JhZlRibldQRHhqNDdyRmlUcUR3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.17.0/Kage-mac.app.tar.gz"
     }
   }
 }
