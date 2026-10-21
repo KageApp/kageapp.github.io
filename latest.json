@@ -1,11 +1,11 @@
 {
-  "version": "0.17.0",
-  "notes": "Novidades:\n\n- janela de atualização com os passos",
-  "pub_date": "2026-10-21T21:33:11Z",
+  "version": "0.19.0",
+  "notes": "Novidades:\n\n- troca de tela por entrada automática, entradas preenchidas sozinhas e editáveis",
+  "pub_date": "2026-10-21T21:54:48Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHlOelBTM0Y1RUQ5L25UVWFqWG9QaFF3bXc5U0o4bHI4T0VSVHV3eTFuVlhBV2ppOHNxcStocUE3Q0NyZUxoTWZVRHF6dzdNS3h3a3ZvOHBqVkxta1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE4Mzg2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNy4wCjdZSWxYdUdrMkN0SFBCaUs4YkJLWmVkSklncjJ2RUNXQTNLaWJ3QzNJYlVjM3ZqNHNLR25QS1F6NHFiT1l1eko3U1JhZlRibldQRHhqNDdyRmlUcUR3PT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.17.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCt2QXZEVzhmclM2a1JlRHNia3ArZkw1anIzZnY0a2diRUNqakM0ZkppaGxVOUdpUUp6U2lUN1Azcm1BZ1kvSmR0TGlYcG82WkZwUDJabFJidFZnMGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE5Njc4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xOS4wCmdtUXhHYW5UOWxVR0V5aFkvaEM1T0RUSnhqMzJlUmpzd0tUbm4rTk1qdUYzT200WjA4NEh4c0VvK2ZHV2JaVXFmb2k4dkdpZjJhRE1TRWNrZCtGQkRnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.19.0/Kage-mac.app.tar.gz"
     }
   }
 }
