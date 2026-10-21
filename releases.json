@@ -2,7 +2,7 @@
   {
     "version": "0.1.0",
     "date": "2026-10-21",
-    "notes": "- chore: site de downloads e publicação da versão para Mac\n- feat: notificações, histórico de avisos e atualização automática\n- feat: primeira versão do Kage para Mac, com vários computadores no mesmo monitor\n- docs: STACK.md, a stack padrão da casa (copiada do Prelo)\n- chore: início do Kage",
+    "notes": "- notificações, histórico de avisos e atualização automática\n- primeira versão do Kage para Mac, com vários computadores no mesmo monitor",
     "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.1.0/Kage-mac.dmg"
   }
 ]

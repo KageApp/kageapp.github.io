@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
-  "notes": "- chore: site de downloads e publicação da versão para Mac\n- feat: notificações, histórico de avisos e atualização automática\n- feat: primeira versão do Kage para Mac, com vários computadores no mesmo monitor\n- docs: STACK.md, a stack padrão da casa (copiada do Prelo)\n- chore: início do Kage",
-  "pub_date": "2026-10-21T16:52:28Z",
+  "notes": "- notificações, histórico de avisos e atualização automática\n- primeira versão do Kage para Mac, com vários computadores no mesmo monitor",
+  "pub_date": "2026-10-21T16:53:53Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDJlMUFXWS85cXJoVzN4V3NPbGw1OGFnNXlENUk4ME5ObkU0RysxalRQcitSaHZYb1JacmJXY3hVNndiQW51ZmZGRytYTktpVk5zMWxEL0hNTENKQnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAxNTEzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjAKeXBaT2tId1FUOG91c3FkcmY1Q2VGQmVoZWF5c05hZzBuMzFPMThyQzY4VW5Mb3NWcjgxK2NERzNvVjJHcDI2Z0R3Y3N1cTdLejR0VnNYT3hrVDJaQkE9PQo=",
