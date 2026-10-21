@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.10.0",
+    "date": "2026-10-21",
+    "notes": "Novidades:\n\n- escurecer após, apagar após e quanto escurecer por tela",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.10.0/Kage-mac.dmg"
+  },
+  {
     "version": "0.9.2",
     "date": "2026-10-21",
     "notes": "Correções:\n\n- mexer na chave de OLED deixava a tela com valores nulos (null h, barra cheia)",

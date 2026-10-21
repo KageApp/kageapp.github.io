@@ -1,11 +1,11 @@
 {
-  "version": "0.9.2",
-  "notes": "Correções:\n\n- mexer na chave de OLED deixava a tela com valores nulos (null h, barra cheia)",
-  "pub_date": "2026-10-21T19:04:31Z",
+  "version": "0.10.0",
+  "notes": "Novidades:\n\n- escurecer após, apagar após e quanto escurecer por tela",
+  "pub_date": "2026-10-21T19:09:38Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCtGMDE4M3F1OEdoVW9qb3kyR1FGaW1YTG9WcDRXVHl3QWpRMURyNmZIT05WVjZtZ3VnMHNDZGtiWTVNNUVidTdhMm9PQk1qbSt4SkZLMHRQemdvQVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5NDY1CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC45LjIKbWc2MjNuNHlWZjkzWTlqZnNQSEVBWTBwN2daSG12TmMvYmI2ZjJHZS9TZnNac3MwclRpZXF1aGpsQ3Vqd1NWL2dTWHhSQXZSZEZJWkZ6d25YSjNaQWc9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.9.2/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDJJV3hVbkJFRGpIakZ0OTlYVFFZQ1kxM0xMTWpOTWlDZ2NsemJFZ0h6WVZobHVOWTdWOVJ6WGRxb0d3UnJDNXpCRVA0WXRERmNJaXRkUkdiQnZSMkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5NzcyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMC4wCjRkcnd1emd3em5PMCtZenJoN29JRVZLYVZvdWZiL1gwcVJrN1hVTkNReWpwYnFzYmV0S052ZUpONGhqNzBEWTlXUnNDbzRmdEI1MXRSV1d4eU1LNkRnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.10.0/Kage-mac.app.tar.gz"
     }
   }
 }
