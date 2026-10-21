@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0",
-  "notes": "- notificações, histórico de avisos e atualização automática\n- primeira versão do Kage para Mac, com vários computadores no mesmo monitor",
-  "pub_date": "2026-10-21T16:53:53Z",
+  "version": "0.2.0",
+  "notes": "### Novidades\n\n* Kage Wallpaper e conjuntos de papéis de parede, inclusive os do macOS ([f6ed46c](https://github.com/KageApp/kage/commit/f6ed46ce77868fd561081855ea6edea3b38c35a7))\n* pareamento sem código e um cartão por monitor em Computadores ([c96be78](https://github.com/KageApp/kage/commit/c96be786e130f8c5924977d5204ccfe22d35d5d4))\n\n### Correções\n\n* trocar o estilo da camada não faz mais o papel de parede da empresa reaparecer ([ac3ae76](https://github.com/KageApp/kage/commit/ac3ae76a03f93a5d56a8b661ad0b68c09f5abc17))",
+  "pub_date": "2026-10-21T17:22:24Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDJlMUFXWS85cXJoVzN4V3NPbGw1OGFnNXlENUk4ME5ObkU0RysxalRQcitSaHZYb1JacmJXY3hVNndiQW51ZmZGRytYTktpVk5zMWxEL0hNTENKQnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAxNTEzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xLjAKeXBaT2tId1FUOG91c3FkcmY1Q2VGQmVoZWF5c05hZzBuMzFPMThyQzY4VW5Mb3NWcjgxK2NERzNvVjJHcDI2Z0R3Y3N1cTdLejR0VnNYT3hrVDJaQkE9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.1.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDFSdk01ZVhwaWhPVERsZjNkeFc2MVJSRFVwRmM1SUtBaTgyQTkxUHE3SFFCVTJyOUNrdTVoNDZxU1RMNkFOa2tGK2hkU2ZJdWtRMXhjOVFSaTAraXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAzMzM5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yLjAKdkowTllROTFLcDVQU1I4UWgvdG0vRlVub2xydS9JdFY3dTB0bGdWU0lUMHZuZk4wc3lQT1h3dFkreWZodnl2YXpaK3U4ckdVazJBcVJvM081ZjFjQmc9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.2.0/Kage-mac.app.tar.gz"
     }
   }
 }

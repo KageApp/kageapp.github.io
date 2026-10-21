@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.2.0",
+    "date": "2026-10-21",
+    "notes": "### Novidades\n\n* Kage Wallpaper e conjuntos de papéis de parede, inclusive os do macOS ([f6ed46c](https://github.com/KageApp/kage/commit/f6ed46ce77868fd561081855ea6edea3b38c35a7))\n* pareamento sem código e um cartão por monitor em Computadores ([c96be78](https://github.com/KageApp/kage/commit/c96be786e130f8c5924977d5204ccfe22d35d5d4))\n\n### Correções\n\n* trocar o estilo da camada não faz mais o papel de parede da empresa reaparecer ([ac3ae76](https://github.com/KageApp/kage/commit/ac3ae76a03f93a5d56a8b661ad0b68c09f5abc17))",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.2.0/Kage-mac.dmg"
+  },
+  {
     "version": "0.1.0",
     "date": "2026-10-21",
     "notes": "- notificações, histórico de avisos e atualização automática\n- primeira versão do Kage para Mac, com vários computadores no mesmo monitor",
