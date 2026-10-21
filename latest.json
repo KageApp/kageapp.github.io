@@ -1,7 +1,7 @@
 {
   "version": "0.2.0",
-  "notes": "### Novidades\n\n* Kage Wallpaper e conjuntos de papéis de parede, inclusive os do macOS ([f6ed46c](https://github.com/KageApp/kage/commit/f6ed46ce77868fd561081855ea6edea3b38c35a7))\n* pareamento sem código e um cartão por monitor em Computadores ([c96be78](https://github.com/KageApp/kage/commit/c96be786e130f8c5924977d5204ccfe22d35d5d4))\n\n### Correções\n\n* trocar o estilo da camada não faz mais o papel de parede da empresa reaparecer ([ac3ae76](https://github.com/KageApp/kage/commit/ac3ae76a03f93a5d56a8b661ad0b68c09f5abc17))",
-  "pub_date": "2026-10-21T17:22:24Z",
+  "notes": "Novidades:\n\n- Kage Wallpaper e conjuntos de papéis de parede, inclusive os do macOS\n- pareamento sem código e um cartão por monitor em Computadores\n\nCorreções:\n\n- trocar o estilo da camada não faz mais o papel de parede da empresa reaparecer",
+  "pub_date": "2026-10-21T17:23:29Z",
   "platforms": {
     "darwin-aarch64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDFSdk01ZVhwaWhPVERsZjNkeFc2MVJSRFVwRmM1SUtBaTgyQTkxUHE3SFFCVTJyOUNrdTVoNDZxU1RMNkFOa2tGK2hkU2ZJdWtRMXhjOVFSaTAraXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjAzMzM5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yLjAKdkowTllROTFLcDVQU1I4UWgvdG0vRlVub2xydS9JdFY3dTB0bGdWU0lUMHZuZk4wc3lQT1h3dFkreWZodnl2YXpaK3U4ckdVazJBcVJvM081ZjFjQmc9PQo=",
