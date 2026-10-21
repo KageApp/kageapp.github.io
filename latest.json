@@ -1,11 +1,11 @@
 {
-  "version": "0.10.2",
-  "notes": "Correções:\n\n- brilho travado em 10% com o monitor em uso, e brilho normal por tela",
-  "pub_date": "2026-10-21T19:18:03Z",
+  "version": "0.11.0",
+  "notes": "Novidades:\n\n- Procurar atualizações em Telas e Sobre esta tela",
+  "pub_date": "2026-10-21T19:21:30Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHcrUmRyWVhGQ1BhN1dOQzNTSnI1SjZPZG11MHlweE1ZenF6Sk5SRnZUb2o1VzRETzJlc3Y3a1hTMUZnNzYzbDQxSmswZGs0ZHl5NHhqakRGN3NJZGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwMjc4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMC4yCksvZVZ4a2p0b3gySmlsbk9QSlp6S0VFcytRUWg4OUtNK2FNRmZUY3VtUGlvQk5UbXlwRWlma0lDMFJTZlUwV0tSS1h0R2NrcjVEUDB3eVdYVWMyc0RRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.10.2/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRC9INjZjMmZwbGhsbmtaM0U2cVN0UUFUNEFucU9BaS9QcXNEbDJaK2pobTV3WkFyMDRnV3lWc0NQaVhZdG5RUFJMOXR4Sjd6L1hhbWFkZjVMZ2IxcndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwNDg0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMS4wCnEweEdrWDJoRUNiYjNXWWw2Q3JicUdkYWpnbzI3Zjc5WUc5czFwVkZFU0lSWWlZZm42eHFuZFY4QlUzYVlIQmRyVnVJN3NOeWlBdjJDdHJYUzNNa0RRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.11.0/Kage-mac.app.tar.gz"
     }
   }
 }
