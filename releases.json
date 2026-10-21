@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.19.1",
+    "date": "2026-10-21",
+    "notes": "Correções:\n\n- botão de mostrar o computador sempre visível",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.19.1/Kage-mac-0.19.1.dmg"
+  },
+  {
     "version": "0.19.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- troca de tela por entrada automática, entradas preenchidas sozinhas e editáveis",

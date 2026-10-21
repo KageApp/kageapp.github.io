@@ -1,11 +1,11 @@
 {
-  "version": "0.19.0",
-  "notes": "Novidades:\n\n- troca de tela por entrada automática, entradas preenchidas sozinhas e editáveis",
-  "pub_date": "2026-10-21T21:54:48Z",
+  "version": "0.19.1",
+  "notes": "Correções:\n\n- botão de mostrar o computador sempre visível",
+  "pub_date": "2026-10-21T21:59:44Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCt2QXZEVzhmclM2a1JlRHNia3ArZkw1anIzZnY0a2diRUNqakM0ZkppaGxVOUdpUUp6U2lUN1Azcm1BZ1kvSmR0TGlYcG82WkZwUDJabFJidFZnMGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE5Njc4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xOS4wCmdtUXhHYW5UOWxVR0V5aFkvaEM1T0RUSnhqMzJlUmpzd0tUbm4rTk1qdUYzT200WjA4NEh4c0VvK2ZHV2JaVXFmb2k4dkdpZjJhRE1TRWNrZCtGQkRnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.19.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDdZbU8vbjYrZXlGeFFWWlFrQ3BKdVpmOXd4MW1oTUl6ejVhekVwc1pBbE9KSVFGYU8vQ01vUVJnbWdzQk0zaURjcWNrcXBHK3J5ak1Zc0xDYk4va1FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE5OTc5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xOS4xCjc2dGpqcW41c1Q2cm9TWVlHaG5iN1FiNGtpNVRKNC92RGdEdVhaTmRRMmgvT21rZER2T0ZUQVh1N3dTSzR0WlZpdEZ2UTlJZC9yb3V5ZGRoY3NoZ0R3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.19.1/Kage-mac.app.tar.gz"
     }
   }
 }
