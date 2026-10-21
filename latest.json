@@ -1,11 +1,11 @@
 {
-  "version": "0.9.0",
-  "notes": "Novidades:\n\n- badge OLED no cartão, chave de OLED dentro da configuração da tela e papel de parede em página própria",
-  "pub_date": "2026-10-21T18:57:40Z",
+  "version": "0.9.1",
+  "notes": "Correções:\n\n- Papel de parede ao lado de Configurar no cartão da tela",
+  "pub_date": "2026-10-21T19:02:32Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHcvbnYxTUU0TzNVUjVnbkZLc3VxT0RLa05uNituSVhrSDlvcHNMSHhRS3A1ZWpUQ05FNjZ0NHlFSWx4WnVoVFpKNHFiV0NPVSsvb3pxVXh3UDIwSkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5MDU1CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC45LjAKYW1ZdkJDLzc3UVdiWjRBVmV4RUpaUFV3UjBMd0QzYysxeitiMldJdndEZHVZa3FnSlR6eWdzdVRjNUQ0U3Q1Yk1ZRGxMM3FIUWZZRVlINXFyQzBLQ2c9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.9.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRC9GK05oSDFTKzliTll0NTNmQ2l4K0RiTk5GZk1jT2h0ODJ4UFEyVmNwb1djcDVwQnI3UHA1d2xHS3FvMGk0R0Rlb3hmeE9BVks1UGlZeGhkbTRXdHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5MzQ2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC45LjEKUVN4RDd5SHNtQlhIeG1pSlpqSVlzd2Z6c1VaUzFuVjRrVkV1ZVQ3UVVkYXNsNkdXYU5LN09xQzZJY1E1N3ZkV0tnZjVVK2YvT05kQkhHRlcxOUpXQmc9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.9.1/Kage-mac.app.tar.gz"
     }
   }
 }
