@@ -1,11 +1,11 @@
 {
-  "version": "0.11.0",
-  "notes": "Novidades:\n\n- Procurar atualizações em Telas e Sobre esta tela",
-  "pub_date": "2026-10-21T19:21:30Z",
+  "version": "0.11.1",
+  "notes": "Correções:\n\n- Voltar no Papel de parede volta para onde veio",
+  "pub_date": "2026-10-21T19:25:29Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRC9INjZjMmZwbGhsbmtaM0U2cVN0UUFUNEFucU9BaS9QcXNEbDJaK2pobTV3WkFyMDRnV3lWc0NQaVhZdG5RUFJMOXR4Sjd6L1hhbWFkZjVMZ2IxcndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwNDg0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMS4wCnEweEdrWDJoRUNiYjNXWWw2Q3JicUdkYWpnbzI3Zjc5WUc5czFwVkZFU0lSWWlZZm42eHFuZFY4QlUzYVlIQmRyVnVJN3NOeWlBdjJDdHJYUzNNa0RRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.11.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCtGeEMrR3hJbjhsRlJoa0RwUHZWb2loZE1BMUxNTTlYbmlnblZDYnA5dDhkV2x0UUtoZEcvblQ2ZGZ3cVpOUXY3RjJFckdEbXBjSlhUcjdQaVdTYVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwNzIzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMS4xCmkrSU1WbVgwVnRLcE1TeCtyVXN6akhsa1oxNmdVS3NPWUZ5SUVxNUt0S2hDU1BNcHZ0OHcwV3dDQ0N1L3hXenF5cFdmamVJUVljUzVwbjNKcEpYN0RnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.11.1/Kage-mac.app.tar.gz"
     }
   }
 }
