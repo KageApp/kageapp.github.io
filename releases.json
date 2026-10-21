@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.15.1",
+    "date": "2026-10-21",
+    "notes": "Correções:\n\n- rodapé do cartão da tela na largura certa, e em uso só com alguém mexendo no computador",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.15.1/Kage-mac-0.15.1.dmg"
+  },
+  {
     "version": "0.15.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- Mostrar troca a entrada do monitor para outro computador, como o botão do KVM",

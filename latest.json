@@ -1,11 +1,11 @@
 {
-  "version": "0.15.0",
-  "notes": "Novidades:\n\n- Mostrar troca a entrada do monitor para outro computador, como o botão do KVM",
-  "pub_date": "2026-10-21T21:10:37Z",
+  "version": "0.15.1",
+  "notes": "Correções:\n\n- rodapé do cartão da tela na largura certa, e em uso só com alguém mexendo no computador",
+  "pub_date": "2026-10-21T21:18:02Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHp6d0diaGNFdjlGeEI3b2xBemlpb0lkUW1lTWtSYnhIVkI2S0g2dStMcTJ6Nm1JUVRCY2RaT0NnY21Xd3ZjWE5JSE1DSVhZZkVhRGExMHVYWEwzMndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE3MDI1CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNS4wCitQTVY0cElQYlIzeTRHUGEySkx0VXNYbjFWcm13bkpsLzQ5TEhKd01JcWoxbms2WU5MaUo2UmNlZUIvTTZOM244MEZJdFFsWlV1WVlKWDZiQjRxeUJnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.15.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHdESE1sMm54K214MEZKeFdaVmFqRlRiOENLc0xTcWFsWnBFeTExNHVTdXlRS1dhOEErRDBIalNSV1hFZDB4aTY3RlVDL3RENmMvMVk4UWIvdmtDdEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE3NDc2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNS4xClJHa2k3VURqOW5uWmVLSFZEQm56MHFCZUZESDQzNGJaenQ4N0lXeFRhMVBid0toYjZaZGRZSjhjYmYxejZsTEpNbnJ6cE5BODF6TlR6SVlod2NudUFBPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.15.1/Kage-mac.app.tar.gz"
     }
   }
 }
