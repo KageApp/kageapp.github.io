@@ -1,11 +1,11 @@
 {
-  "version": "0.20.0",
-  "notes": "Novidades:\n\n- chaves para ligar a troca de computador e a troca apagando e acendendo",
-  "pub_date": "2026-10-21T22:14:59Z",
+  "version": "0.21.0",
+  "notes": "Novidades:\n\n- áreas paradas da tela e faixa escura sobre a barra de menus",
+  "pub_date": "2026-10-21T22:31:21Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHlRMzdmcjAvWFY0NXlEc0lxczNQTno0SGRHKzR5WnFhSU1sMUpkS3N1aUc3Q25RMExtYVBsWEtHTzhuMjE4Y0tWb3FWMEVRNW9KTGNjeTVNZ1pURlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjIwODkzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMC4wCmFSOWxQUGJEQUxYOVY0UEV6SllMaDM4UXA3WWk1UEFzbGhUNzNCQVlya2FaSG1rMVZjcmRuN0VrL2ZCQjZpNFJRcHJDVUFHVFQwQU5pWHhQZkplRkRRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.20.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDFBRVN6cmRDMStHdDZLM0ZtK0FvNlBvdVB3Ujc5MHc2VkxtcGltVUp2TlV4eHlsZ0lSdUU0dWFRVHJpc0JvUnhGM1FSemtPcWUxZzhFN05vcWUwN0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjIxODc2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMS4wCkgyOE96SGtHZjdHQjRzWXFtekVIaFpXbmNvdlZxdUYxZ2tGMHN2Z0xTYjdLWHY2a21WbVV1MXJJbEtLeTM1SUVVZXZFcTN1UGNCRW8zZ0hEeDNPVURBPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.21.0/Kage-mac.app.tar.gz"
     }
   }
 }
