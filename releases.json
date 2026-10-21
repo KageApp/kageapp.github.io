@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.12.2",
+    "date": "2026-10-21",
+    "notes": "Correções:\n\n- o Kage não fica mais com a janela branca depois de reiniciar, e cada computador segue sozinho quando o outro some",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.12.2/Kage-mac.dmg"
+  },
+  {
     "version": "0.12.1",
     "date": "2026-10-21",
     "notes": "Correções:\n\n- Buscar atualizações em todos os computadores fica no topo de Telas, em texto menor",

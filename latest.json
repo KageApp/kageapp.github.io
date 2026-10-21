@@ -1,11 +1,11 @@
 {
-  "version": "0.12.1",
-  "notes": "Correções:\n\n- Buscar atualizações em todos os computadores fica no topo de Telas, em texto menor",
-  "pub_date": "2026-10-21T19:30:05Z",
+  "version": "0.12.2",
+  "notes": "Correções:\n\n- o Kage não fica mais com a janela branca depois de reiniciar, e cada computador segue sozinho quando o outro some",
+  "pub_date": "2026-10-21T20:00:49Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDVJSytySDJPK1hTK29kUVNhQ2ZueHVyOVp4U3pQbDEzb1U2Tjc2d283YTIrcDdmY2dVWkxWZG5JQTVyeEh2Q1d6d0NZUmRjOVlEL3RPZ0RnQmpnMmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwOTk5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMi4xCnovdEZUd3ZCaGExRk1xVnA4K3RZMTMvb1Z6THA2aWR1Z2tZckpJWWFIbHRkU3o2STBNcFlIenNNTUZSckVHRUZKYy9NdnlnQTM0dGZJWjJwdVpZUEFRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.12.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDIxVHFHWGNJVGJDN21xeHROR29ScFcxc3VWY0lqSWxmNDZEUUpZMWlNMlVNN2tIeG82ckNBZU5zakNuTjJiUW9CZ1Q2aFJGSUtyeFk1M1krWFViN3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEyODQyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMi4yCll3R1Fpc0JJOW41ZjVtNVpjQmZ0aWJvbHU1N0grZ0pZcE1PTndTS2QwSlFkV3RTZFRlcndoQlh2ampGalJ5TWhaZmFxMlhkMzBybThra1FzVXBBb0R3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.12.2/Kage-mac.app.tar.gz"
     }
   }
 }
