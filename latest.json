@@ -1,11 +1,11 @@
 {
-  "version": "0.12.2",
-  "notes": "Correções:\n\n- o Kage não fica mais com a janela branca depois de reiniciar, e cada computador segue sozinho quando o outro some",
-  "pub_date": "2026-10-21T20:00:49Z",
+  "version": "0.12.3",
+  "notes": "Correções:\n\n- o Kage travava (janela vazia) com outro computador do grupo desligado",
+  "pub_date": "2026-10-21T20:17:33Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDIxVHFHWGNJVGJDN21xeHROR29ScFcxc3VWY0lqSWxmNDZEUUpZMWlNMlVNN2tIeG82ckNBZU5zakNuTjJiUW9CZ1Q2aFJGSUtyeFk1M1krWFViN3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEyODQyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMi4yCll3R1Fpc0JJOW41ZjVtNVpjQmZ0aWJvbHU1N0grZ0pZcE1PTndTS2QwSlFkV3RTZFRlcndoQlh2ampGalJ5TWhaZmFxMlhkMzBybThra1FzVXBBb0R3PT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.12.2/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDlTMzIzN2lwSHdWcCtMNHNSWGQ3dmFBUEdsY0xaVitsSUdYeUJrK3d1aEZHaFBJaHlwL2dCYXhTMnlJQ21GdVNaRGFrckkwYU9EakFCMWFpYWFKZGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEzODQ3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMi4zCnQwNkM3TVd1QytLUng0cUlEaUpIanptZnJUeUd6L0RKTjFhc3NPakF4dGlwMzBPNTd3WXZNd3RMMG1xL21wMkROVC9ENXNuWkM4bWUxcjFPWUIwaUNRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.12.3/Kage-mac.app.tar.gz"
     }
   }
 }
