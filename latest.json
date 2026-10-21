@@ -1,11 +1,11 @@
 {
-  "version": "0.9.1",
-  "notes": "Correções:\n\n- Papel de parede ao lado de Configurar no cartão da tela",
-  "pub_date": "2026-10-21T19:02:32Z",
+  "version": "0.9.2",
+  "notes": "Correções:\n\n- mexer na chave de OLED deixava a tela com valores nulos (null h, barra cheia)",
+  "pub_date": "2026-10-21T19:04:31Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRC9GK05oSDFTKzliTll0NTNmQ2l4K0RiTk5GZk1jT2h0ODJ4UFEyVmNwb1djcDVwQnI3UHA1d2xHS3FvMGk0R0Rlb3hmeE9BVks1UGlZeGhkbTRXdHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5MzQ2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC45LjEKUVN4RDd5SHNtQlhIeG1pSlpqSVlzd2Z6c1VaUzFuVjRrVkV1ZVQ3UVVkYXNsNkdXYU5LN09xQzZJY1E1N3ZkV0tnZjVVK2YvT05kQkhHRlcxOUpXQmc9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.9.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCtGMDE4M3F1OEdoVW9qb3kyR1FGaW1YTG9WcDRXVHl3QWpRMURyNmZIT05WVjZtZ3VnMHNDZGtiWTVNNUVidTdhMm9PQk1qbSt4SkZLMHRQemdvQVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5NDY1CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC45LjIKbWc2MjNuNHlWZjkzWTlqZnNQSEVBWTBwN2daSG12TmMvYmI2ZjJHZS9TZnNac3MwclRpZXF1aGpsQ3Vqd1NWL2dTWHhSQXZSZEZJWkZ6d25YSjNaQWc9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.9.2/Kage-mac.app.tar.gz"
     }
   }
 }
