@@ -1,11 +1,11 @@
 {
-  "version": "0.3.0",
-  "notes": "Novidades:\n\n- brilho do monitor no Kage, brilho de dia e de noite e um guia que corrige\n- conjuntos como cartões e Kage Wallpaper com movimento ajustável\n- o Kage fala com o monitor pelo cabo de vídeo (DDC/CI)\n- todos os computadores são iguais, sem hub, e o brilho pelo cabo vale para todos os monitores\n\nCorreções:\n\n- avisos rápidos sempre traduzidos, só para o que importa, e Atualizações mais arrumada\n- notificações voltam a chegar e o satélite pede acesso à rede local",
-  "pub_date": "2026-10-21T17:58:59Z",
+  "version": "0.4.0",
+  "notes": "Novidades:\n\n- Atualizar todos em Computadores",
+  "pub_date": "2026-10-21T18:02:33Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHhJVlVXNFBLbEdsZlZ6MDBMT2RhellOTHA0NkxIWWZCSEh1OGJQQ0xSNFhoM29EaGFxaG5JYXRwSk9Vc3NWQXZicUdsbHAxTVR6eXdFcStFWEFZZHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA1NTM0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zLjAKOEs4R2dOODYra2NhNVlYYms3V2Z4MzJXbWl4M2tOU1BlbTZCdTlYOEJ0RE1JSStjZUdla21LT2FHbDZPaGFSWUxMbVo3QkRLWERFT01qSTR5dTV0RHc9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.3.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDlIWGJQSGJhY0plMTMxeFRZbi9DdEcyVFJVdTFQSWVPdGRTMEFQVnc4REkwWk0zcHc2SUJzOCt5RDhlRVdxdDRZSm5Dai9NUElJRC96ZlFYYnprSlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA1NzQ2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC40LjAKN1RYaHdUZnlybjdweFExeWFBWjdvVkhWcUNlZU5Iam1FN25iVHJHeGRhZDlGclpXNWRPSVJzMHF3RVFzMTBUcjNqbSs4UTUzY1hPRGlwUmtDMkJBQ2c9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.4.0/Kage-mac.app.tar.gz"
     }
   }
 }
