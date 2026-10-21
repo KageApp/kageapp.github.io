@@ -1,11 +1,11 @@
 {
-  "version": "0.15.1",
-  "notes": "Correções:\n\n- rodapé do cartão da tela na largura certa, e em uso só com alguém mexendo no computador",
-  "pub_date": "2026-10-21T21:18:02Z",
+  "version": "0.16.0",
+  "notes": "Novidades:\n\n- KVM configurável por tela",
+  "pub_date": "2026-10-21T21:23:48Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHdESE1sMm54K214MEZKeFdaVmFqRlRiOENLc0xTcWFsWnBFeTExNHVTdXlRS1dhOEErRDBIalNSV1hFZDB4aTY3RlVDL3RENmMvMVk4UWIvdmtDdEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE3NDc2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNS4xClJHa2k3VURqOW5uWmVLSFZEQm56MHFCZUZESDQzNGJaenQ4N0lXeFRhMVBid0toYjZaZGRZSjhjYmYxejZsTEpNbnJ6cE5BODF6TlR6SVlod2NudUFBPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.15.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDM1b1FTaSszR1RTY3dxMndzM3d6eE5KTmlZNG1vblUzb09XVEZob09UditDVW1uUW5tbEJaNW5ZSUQ4bU05WGFGZi9kY0loWFg5VkpUeDhVRUp5V3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE3ODIzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNi4wCi9ZcWF4L0liTHNreFA3MTJXelFqOUUzQTY2Vi9ldzJNeWQ1VDNGMUw3MUU0c1BQSTRhRy9FY2Z1Mml4Q2tjVGd2UzExU09HRlRJTnBCTmlwd25vMUN3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.16.0/Kage-mac.app.tar.gz"
     }
   }
 }
