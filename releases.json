@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.14.1",
+    "date": "2026-10-21",
+    "notes": "Correções:\n\n- Papel de parede e Configurar alinhados com a borda do cartão",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.14.1/Kage-mac-0.14.1.dmg"
+  },
+  {
     "version": "0.14.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- site novo e interativo, app mais polido e as novidades da versão dentro do app",

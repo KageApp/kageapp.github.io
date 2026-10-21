@@ -1,11 +1,11 @@
 {
-  "version": "0.14.0",
-  "notes": "Novidades:\n\n- site novo e interativo, app mais polido e as novidades da versão dentro do app",
-  "pub_date": "2026-10-21T21:03:58Z",
+  "version": "0.14.1",
+  "notes": "Correções:\n\n- Papel de parede e Configurar alinhados com a borda do cartão",
+  "pub_date": "2026-10-21T21:08:06Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDhVbzFuTk1ubUhMNkpLVWpLekRiUzBBVkczdlMrSzNpcDFrcmJmRnpWOWZIVUUrUHVRZkQ0aGgxTnhSa0N0ZjYyRWZsMUpaU0pUVkc4MEdCZXYvQWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE2NjMyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNC4wCitOeEsrWER4MUdEbmc3YXNTSzZZK20vNG10Q2Q3K2hKUUVISkJZSTZjVXVBdjhhaUJtVGFwU0hLdU4xdGkzUjYvYlhHaUJLdVpzTEhnWExkN2NCTkNnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.14.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRC9zSk5GeTkxRC9BVFdjcmR6TWRPZ1NsYlQrcnR3a3cydjlaWDFJUTdMSGpidFdoT0UxQ0lYOHdZby8wR0toOWVLTjVIQnl1QmNrQ20vSE1YMG1PYVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE2ODc5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNC4xCmZOazZKa3NZcGpwZDViUHlycFFtaTRhS08yS1Z5Mk9kV1RXK01GTW1EMU85RWxpV0RKd2F6VHNBN3lJRjlKQm9SUnV0eDBpY2lVbk9BSjg0ektVY0F3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.14.1/Kage-mac.app.tar.gz"
     }
   }
 }
