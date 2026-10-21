@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.8.0",
+    "date": "2026-10-21",
+    "notes": "Novidades:\n\n- Telas é a tela inicial e concentra tudo sobre cada monitor",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.8.0/Kage-mac.dmg"
+  },
+  {
     "version": "0.7.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- ajustes por monitor",

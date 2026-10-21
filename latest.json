@@ -1,11 +1,11 @@
 {
-  "version": "0.7.0",
-  "notes": "Novidades:\n\n- ajustes por monitor",
-  "pub_date": "2026-10-21T18:40:09Z",
+  "version": "0.8.0",
+  "notes": "Novidades:\n\n- Telas é a tela inicial e concentra tudo sobre cada monitor",
+  "pub_date": "2026-10-21T18:46:10Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHp2eEkvZmo5WEJXTWJ3WmZ4ZStUaEQ4ay9la0hLcHNWRDRVSVFpdnZJazkreFRnczQ1aE9xZ0pYeHlmRVBQTncrbHVpSk5pL3BNTm5CR1JFWEtDSHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA4MDA0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC43LjAKTnRCWUt1NENST21paStJQXdxQ0JGOEtlZkt5UXVRcFE0VDRnM0poc1p4YWdPMXRZOUtaMTAyU0VRQW5Menpjbmlrc3NIQjRXUHVCUW1EczJraWV6Qmc9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.7.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDIzN1FOek1DWkVTd2Z0SGV4cGJKalhnWUVDaTBlNllrSGFwMWFlZlJ1T3BPRC9kQWpXMjlvRGcrdnpwUFpHN0xYTzVrTkc3U2pENEIwM01vaFhpMFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA4MzY0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC44LjAKUkx6UTdFa2ZaR2NQUm95Y1c1T3AwbFR0L1RnZzVpc0d5VjlUYXJhdk03Q3pSLzRMNVFLOFo1bERVaVJyM05mUXRhUGYwQjYzcmVjNDhoNy9lV0JNREE9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.8.0/Kage-mac.app.tar.gz"
     }
   }
 }
