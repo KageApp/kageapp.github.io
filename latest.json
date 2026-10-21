@@ -1,11 +1,11 @@
 {
-  "version": "0.10.1",
-  "notes": "Correções:\n\n- o brilho voltava a ficar baixo depois de uma pausa num monitor dividido",
-  "pub_date": "2026-10-21T19:12:14Z",
+  "version": "0.10.2",
+  "notes": "Correções:\n\n- brilho travado em 10% com o monitor em uso, e brilho normal por tela",
+  "pub_date": "2026-10-21T19:18:03Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDZiMjNTTERnaDVxWXp2WDZkM0swbnp2M0prWC94THZjSzRZRWdzUDZ1Q1BUaXo2NC9qVDJ5bUowRWE0amd6ZlZNdUt5bDBid0NUclZQZ1Y2dStRQUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5OTI4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMC4xCmhES2lDaUdRdmJKakxSYllOd091L1c4akExSEszTDFRbGN1Ull3REhxbkt1ZWV5UUVlVjNQVlAvZnQyMUM5LzAxQ21QNHpWcjVsTWM5M2lPMUZaOUFBPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.10.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHcrUmRyWVhGQ1BhN1dOQzNTSnI1SjZPZG11MHlweE1ZenF6Sk5SRnZUb2o1VzRETzJlc3Y3a1hTMUZnNzYzbDQxSmswZGs0ZHl5NHhqakRGN3NJZGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwMjc4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMC4yCksvZVZ4a2p0b3gySmlsbk9QSlp6S0VFcytRUWg4OUtNK2FNRmZUY3VtUGlvQk5UbXlwRWlma0lDMFJTZlUwV0tSS1h0R2NrcjVEUDB3eVdYVWMyc0RRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.10.2/Kage-mac.app.tar.gz"
     }
   }
 }
