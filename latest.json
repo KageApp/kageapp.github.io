@@ -1,11 +1,11 @@
 {
-  "version": "0.14.1",
-  "notes": "Correções:\n\n- Papel de parede e Configurar alinhados com a borda do cartão",
-  "pub_date": "2026-10-21T21:08:06Z",
+  "version": "0.15.0",
+  "notes": "Novidades:\n\n- Mostrar troca a entrada do monitor para outro computador, como o botão do KVM",
+  "pub_date": "2026-10-21T21:10:37Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRC9zSk5GeTkxRC9BVFdjcmR6TWRPZ1NsYlQrcnR3a3cydjlaWDFJUTdMSGpidFdoT0UxQ0lYOHdZby8wR0toOWVLTjVIQnl1QmNrQ20vSE1YMG1PYVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE2ODc5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNC4xCmZOazZKa3NZcGpwZDViUHlycFFtaTRhS08yS1Z5Mk9kV1RXK01GTW1EMU85RWxpV0RKd2F6VHNBN3lJRjlKQm9SUnV0eDBpY2lVbk9BSjg0ektVY0F3PT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.14.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHp6d0diaGNFdjlGeEI3b2xBemlpb0lkUW1lTWtSYnhIVkI2S0g2dStMcTJ6Nm1JUVRCY2RaT0NnY21Xd3ZjWE5JSE1DSVhZZkVhRGExMHVYWEwzMndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE3MDI1CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNS4wCitQTVY0cElQYlIzeTRHUGEySkx0VXNYbjFWcm13bkpsLzQ5TEhKd01JcWoxbms2WU5MaUo2UmNlZUIvTTZOM244MEZJdFFsWlV1WVlKWDZiQjRxeUJnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.15.0/Kage-mac.app.tar.gz"
     }
   }
 }
