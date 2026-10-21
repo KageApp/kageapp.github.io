@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.8.1",
+    "date": "2026-10-21",
+    "notes": "Correções:\n\n- ícone e nome centralizados nas abas\n- singular quando só um computador está atrás",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.8.1/Kage-mac.dmg"
+  },
+  {
     "version": "0.8.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- Telas é a tela inicial e concentra tudo sobre cada monitor",

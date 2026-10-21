@@ -1,11 +1,11 @@
 {
-  "version": "0.8.0",
-  "notes": "Novidades:\n\n- Telas é a tela inicial e concentra tudo sobre cada monitor",
-  "pub_date": "2026-10-21T18:46:10Z",
+  "version": "0.8.1",
+  "notes": "Correções:\n\n- ícone e nome centralizados nas abas\n- singular quando só um computador está atrás",
+  "pub_date": "2026-10-21T18:49:52Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDIzN1FOek1DWkVTd2Z0SGV4cGJKalhnWUVDaTBlNllrSGFwMWFlZlJ1T3BPRC9kQWpXMjlvRGcrdnpwUFpHN0xYTzVrTkc3U2pENEIwM01vaFhpMFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA4MzY0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC44LjAKUkx6UTdFa2ZaR2NQUm95Y1c1T3AwbFR0L1RnZzVpc0d5VjlUYXJhdk03Q3pSLzRMNVFLOFo1bERVaVJyM05mUXRhUGYwQjYzcmVjNDhoNy9lV0JNREE9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.8.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDh5TU1QT2VIOGFJeHZQL2dxVDJOUjZFa0NoQW9YVEFGMWhyWTNzcEc4U1VON0s5dlJNeUdaWlk1eDBpajlCb1Nabll1MUtPcGVtQmtrNGo5ZWpuYWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA4NTg3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC44LjEKdnVua1pUZ0pENU9mSG8zNzJpbk5FcXdRdlhlVjFNS3NRUjBZL3Mzek82UC9xckNiSUFvOWc3Q2pRM1RXcEtHdTlSZitOVmp1YytqaEx6SlBUM2M3RFE9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.8.1/Kage-mac.app.tar.gz"
     }
   }
 }
