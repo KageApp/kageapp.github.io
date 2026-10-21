@@ -1,11 +1,11 @@
 {
-  "version": "0.12.0",
-  "notes": "Novidades:\n\n- o Kage reconhece monitores OLED sozinho e só pergunta quando não sabe",
-  "pub_date": "2026-10-21T19:28:14Z",
+  "version": "0.12.1",
+  "notes": "Correções:\n\n- Buscar atualizações em todos os computadores fica no topo de Telas, em texto menor",
+  "pub_date": "2026-10-21T19:30:05Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDg0bFFJaFV4N3dNcGphbFJ1cTdTbGJPcU52dFhKeUc2VTMxUElMclIwYkRZekxScFNrRE5xejNmZFFud2NMdWd1QTdJbCtJLzJkSUJuNCs3eS9RdEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwODg5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMi4wCjVRalRzaitvZkFNbVJPVGY5TE5GVnNmc29RczZ5d0JVS0ZyUWFmbk5EM1NVanM5M20xd2c3WEI0SUh4Q2J4Yi84cUdMKzRHK2FydG4vOWNONUcycUNnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.12.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDVJSytySDJPK1hTK29kUVNhQ2ZueHVyOVp4U3pQbDEzb1U2Tjc2d283YTIrcDdmY2dVWkxWZG5JQTVyeEh2Q1d6d0NZUmRjOVlEL3RPZ0RnQmpnMmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwOTk5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMi4xCnovdEZUd3ZCaGExRk1xVnA4K3RZMTMvb1Z6THA2aWR1Z2tZckpJWWFIbHRkU3o2STBNcFlIenNNTUZSckVHRUZKYy9NdnlnQTM0dGZJWjJwdVpZUEFRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.12.1/Kage-mac.app.tar.gz"
     }
   }
 }
