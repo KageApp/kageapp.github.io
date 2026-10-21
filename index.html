@@ -3,117 +3,549 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kage</title>
-  <meta name="description" content="Kage cuida do seu monitor OLED: cobre o papel de parede, escurece e apaga a tela quando ninguém está olhando e conta as horas do painel entre vários computadores." />
+  <title>Kage · cuida do seu monitor OLED</title>
+  <meta name="description" content="Kage cuida do seu monitor OLED no Mac: cobre o papel de parede, escurece e apaga quando ninguém está olhando, acerta o brilho pelo cabo e soma as horas do painel entre vários computadores." />
   <link rel="icon" href="icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <style>
-    /* Black first: on an OLED, these pixels are off. */
-    :root { --bg: #000; --ink: #ece8df; --muted: #8d887e; --accent: #c9a86a; --rule: rgba(255,255,255,.09); --glass: rgba(255,255,255,.035); color-scheme: dark; }
-    @media (prefers-color-scheme: light) {
-      :root:not([data-theme="dark"]) { --bg: #f5f3ee; --ink: #1c1a17; --muted: #6c675e; --accent: #8a6a2c; --rule: rgba(0,0,0,.09); --glass: rgba(255,255,255,.75); color-scheme: light; }
+    /* Black first: on an OLED these pixels are off, and the page practises what Kage preaches. */
+    :root {
+      --bg: #000; --ink: #ece8df; --muted: #9a958b; --faint: #5f5b55; --accent: #c9a86a; --accent-ink: #120e07;
+      --rule: rgba(255,255,255,.09); --glass: rgba(255,255,255,.035); --ok: #7fb38a; --warn: #d9a25b;
+      --radius: 18px; --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, sans-serif; --mono: "JetBrains Mono", ui-monospace, monospace;
+      color-scheme: dark;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
-      background-image: radial-gradient(circle at 15% -5%, rgba(201,168,106,.10), transparent 40%), radial-gradient(var(--rule) 1px, transparent 1px); background-size: auto, 24px 24px; }
-    main { max-width: 860px; margin: 0 auto; padding: 32px 16px 80px; }
-    header { display: flex; align-items: center; gap: 10px; color: var(--muted); font-weight: 600; }
-    header img { width: 28px; height: 28px; }
-    .hero { padding: 72px 0 40px; }
-    .kanji { font-size: 64px; color: var(--accent); line-height: 1; }
-    h1 { font-size: clamp(32px, 6vw, 52px); line-height: 1.1; margin: 16px 0 12px; letter-spacing: -.02em; }
-    .lead { font-size: 19px; color: var(--muted); max-width: 620px; margin: 0; }
-    .download { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 28px; }
-    .button { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 14px; background: var(--accent); color: #000; font-weight: 600; text-decoration: none; }
-    .button:hover { filter: brightness(1.08); }
-    .soft { color: var(--muted); font-size: 14px; }
-    h2 { font-size: 24px; margin: 56px 0 16px; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
-    .card { background: var(--glass); border: 1px solid var(--rule); border-radius: 16px; padding: 18px; }
-    .card h3 { margin: 0 0 6px; font-size: 16px; }
-    .card p { margin: 0; color: var(--muted); font-size: 14px; }
-    ol { padding-left: 20px; } ol li { margin: 6px 0; }
-    code { background: var(--glass); border: 1px solid var(--rule); border-radius: 6px; padding: 1px 6px; font-size: 13px; overflow-wrap: anywhere; }
-    .release { border-top: 1px solid var(--rule); padding: 14px 0; }
-    .release:first-child { border-top: 0; padding-top: 0; }
-    .release strong { margin-right: 8px; }
-    .release pre { white-space: pre-wrap; color: var(--muted); font-family: inherit; font-size: 14px; line-height: 1.5; margin: 6px 0 0; }
-    footer { margin-top: 64px; color: var(--muted); font-size: 13px; }
+    html { scroll-behavior: smooth; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; } }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--sans); -webkit-font-smoothing: antialiased; }
     a { color: var(--accent); }
+    :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 8px; }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+    .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+    /* Live Kage wallpaper behind the hero, the real thing in miniature. */
+    #wall { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; }
+
+    header.top { position: sticky; top: 0; z-index: 20; backdrop-filter: blur(16px) saturate(140%); background: rgba(0,0,0,.55); border-bottom: 1px solid var(--rule); }
+    header.top .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+    .logo { display: flex; align-items: center; gap: 10px; font-weight: 600; color: var(--ink); text-decoration: none; }
+    .logo b { color: var(--accent); font-size: 22px; font-weight: 500; }
+    nav.links { display: flex; gap: 22px; }
+    nav.links a { color: var(--muted); text-decoration: none; font-size: 15px; transition: color .2s; }
+    nav.links a:hover { color: var(--ink); }
+    @media (max-width: 760px) { nav.links { display: none; } }
+
+    .btn { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; border-radius: 14px; font: 600 16px var(--sans); text-decoration: none; cursor: pointer; border: 1px solid transparent; transition: transform .15s, filter .2s, background .2s; }
+    .btn:active { transform: scale(.98); }
+    .btn.primary { background: var(--accent); color: var(--accent-ink); }
+    .btn.primary:hover { filter: brightness(1.08); }
+    .btn.ghost { background: transparent; color: var(--ink); border-color: var(--rule); }
+    .btn.ghost:hover { background: var(--glass); }
+    .btn.small { min-height: 40px; padding: 0 16px; font-size: 14px; }
+
+    /* Hero */
+    .hero { min-height: calc(100svh - 60px); display: grid; align-items: center; padding: 48px 0 64px; }
+    .hero-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: center; }
+    @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } }
+    .kanji { font-size: 56px; color: var(--accent); line-height: 1; }
+    h1 { font-size: clamp(38px, 6vw, 64px); line-height: 1.04; letter-spacing: -.025em; margin: 18px 0 16px; font-weight: 700; }
+    h1 em { font-style: normal; color: var(--accent); }
+    .lead { font-size: 19px; color: var(--muted); max-width: 540px; margin: 0; }
+    .cta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 28px; }
+    .meta { color: var(--faint); font-size: 14px; margin-top: 12px; }
+
+    /* The simulated monitor used by the demos. */
+    .monitor { position: relative; aspect-ratio: 16 / 10; border-radius: 14px; border: 10px solid #121212; background: #000; box-shadow: 0 30px 80px rgba(0,0,0,.6), 0 0 0 1px var(--rule); overflow: hidden; }
+    .monitor::after { content: ""; position: absolute; left: 50%; bottom: -46px; width: 22%; height: 36px; transform: translateX(-50%); background: #121212; border-radius: 0 0 8px 8px; }
+    .screen { position: absolute; inset: 0; overflow: hidden; }
+    .screen canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .menubar { position: absolute; top: 0; left: 0; right: 0; height: 6.5%; background: rgba(40,40,40,.85); display: flex; align-items: center; gap: 4%; padding: 0 3%; transition: transform .5s; }
+    .menubar i { display: block; height: 30%; width: 6%; background: rgba(255,255,255,.55); border-radius: 2px; }
+    .dock { position: absolute; bottom: 3%; left: 50%; transform: translateX(-50%); display: flex; gap: 1.2%; padding: 1% 1.6%; border-radius: 10px; background: rgba(60,60,60,.7); width: 46%; transition: transform .5s; }
+    .dock i { flex: 1; aspect-ratio: 1; border-radius: 22%; }
+    .window { position: absolute; left: 16%; top: 16%; width: 52%; height: 52%; border-radius: 6px; background: #1b1b1b; border: 1px solid #2a2a2a; box-shadow: 0 10px 30px rgba(0,0,0,.5); }
+    .window::before { content: ""; position: absolute; left: 3%; top: 4%; width: 12%; height: 5%; background: radial-gradient(circle at 12% 50%, #ff5f57 18%, transparent 20%), radial-gradient(circle at 50% 50%, #febc2e 18%, transparent 20%), radial-gradient(circle at 88% 50%, #28c840 18%, transparent 20%); }
+    .window .lines { position: absolute; left: 6%; right: 6%; top: 18%; bottom: 10%; background: repeating-linear-gradient(#2c2c2c 0 6%, transparent 6% 14%); opacity: .9; }
+    .veil { position: absolute; inset: 0; background: #000; opacity: 0; pointer-events: none; transition: opacity .6s; }
+    .stand { height: 46px; }
+
+    section.chapter { padding: 110px 0; border-top: 1px solid var(--rule); }
+    .chapter-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 56px; align-items: center; }
+    .chapter-grid.flip > :first-child { order: 2; }
+    @media (max-width: 900px) { .chapter-grid, .chapter-grid.flip { grid-template-columns: 1fr; } .chapter-grid.flip > :first-child { order: 0; } }
+    .eyebrow { font: 500 13px var(--mono); color: var(--accent); letter-spacing: .08em; text-transform: uppercase; }
+    h2 { font-size: clamp(28px, 4vw, 42px); line-height: 1.12; letter-spacing: -.02em; margin: 12px 0 14px; }
+    .chapter p { color: var(--muted); margin: 0 0 14px; }
+
+    /* Controls */
+    .controls { margin-top: 22px; display: grid; gap: 14px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip { min-height: 40px; padding: 0 16px; border-radius: 99px; border: 1px solid var(--rule); background: var(--glass); color: var(--muted); font: 500 14px var(--sans); cursor: pointer; transition: color .2s, border-color .2s, background .2s; }
+    .chip:hover { color: var(--ink); }
+    .chip[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: rgba(201,168,106,.08); }
+    .range { display: grid; gap: 6px; }
+    .range label { display: flex; justify-content: space-between; font-size: 14px; color: var(--muted); }
+    .range output { color: var(--ink); }
+    input[type="range"] { width: 100%; accent-color: var(--accent); height: 28px; cursor: pointer; }
+    .readout { font: 500 14px var(--mono); color: var(--ink); padding: 12px 14px; border-radius: 12px; border: 1px solid var(--rule); background: var(--glass); min-height: 46px; }
+
+    /* Burn-in heat map */
+    .heat { position: relative; aspect-ratio: 16 / 10; border-radius: 12px; border: 1px solid var(--rule); overflow: hidden; background: #000; }
+    .heat canvas { width: 100%; height: 100%; display: block; }
+    .heat-legend { display: flex; justify-content: space-between; font: 12px var(--mono); color: var(--faint); margin-top: 8px; }
+
+    /* Group diagram */
+    .group { position: relative; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .node { border: 1px solid var(--rule); border-radius: 14px; padding: 16px; background: var(--glass); }
+    .node h4 { margin: 0 0 4px; font-size: 15px; }
+    .node .mono { color: var(--muted); font-size: 13px; }
+    .node.on { border-color: rgba(127,179,138,.6); }
+    .node .state { float: right; font: 500 12px var(--mono); padding: 2px 10px; border-radius: 99px; border: 1px solid var(--rule); color: var(--muted); }
+    .node.on .state { color: var(--ok); border-color: rgba(127,179,138,.5); }
+    .panel-node { grid-column: span 2; text-align: center; }
+    .panel-node .hours { font: 600 34px var(--mono); color: var(--ink); }
+    .sync { height: 2px; background: linear-gradient(90deg, transparent, var(--accent), transparent); background-size: 200% 100%; animation: sync 2.4s linear infinite; grid-column: span 2; border-radius: 2px; }
+    @keyframes sync { to { background-position: -200% 0; } }
+
+    /* Guide checklist */
+    .guide { display: grid; gap: 8px; }
+    .gitem { display: grid; grid-template-columns: 22px 1fr auto; gap: 12px; align-items: center; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--rule); background: var(--glass); }
+    .gitem svg { width: 20px; height: 20px; }
+    .gitem .t { font-size: 15px; }
+    .gitem .d { font-size: 13px; color: var(--muted); }
+    .gitem button { font: 500 13px var(--sans); min-height: 36px; padding: 0 12px; border-radius: 10px; border: 1px solid var(--accent); background: transparent; color: var(--accent); cursor: pointer; }
+    .gitem.ok svg { color: var(--ok); } .gitem.warn svg { color: var(--warn); }
+
+    /* Feature grid */
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: 28px; }
+    .card { border: 1px solid var(--rule); border-radius: var(--radius); padding: 22px; background: var(--glass); transition: border-color .25s, transform .25s; }
+    .card:hover { border-color: rgba(201,168,106,.45); transform: translateY(-2px); }
+    .card svg { width: 26px; height: 26px; color: var(--accent); }
+    .card h3 { margin: 12px 0 6px; font-size: 17px; }
+    .card p { margin: 0; color: var(--muted); font-size: 15px; }
+
+    /* Download */
+    .download { text-align: center; }
+    .download .btn { margin-top: 18px; }
+    .steps { counter-reset: s; display: grid; gap: 12px; max-width: 760px; margin: 36px auto 0; text-align: left; }
+    .step { counter-increment: s; display: grid; grid-template-columns: 40px 1fr; gap: 14px; padding: 16px; border-radius: 14px; border: 1px solid var(--rule); background: var(--glass); }
+    .step::before { content: counter(s); display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; border: 1px solid var(--accent); color: var(--accent); font: 600 16px var(--mono); }
+    .step p { margin: 0; color: var(--muted); }
+    .step strong { color: var(--ink); }
+    code { font: 13px var(--mono); background: var(--glass); border: 1px solid var(--rule); border-radius: 6px; padding: 1px 6px; overflow-wrap: anywhere; }
+    details.faq { border: 1px solid var(--rule); border-radius: 14px; padding: 14px 18px; background: var(--glass); }
+    details.faq + details.faq { margin-top: 10px; }
+    details.faq summary { cursor: pointer; font-weight: 600; min-height: 28px; }
+    details.faq p { color: var(--muted); margin: 10px 0 0; }
+    .release { border-top: 1px solid var(--rule); padding: 16px 0; }
+    .release:first-child { border-top: 0; }
+    .release .v { font: 600 15px var(--mono); }
+    .release .date { color: var(--faint); font-size: 13px; margin-left: 10px; }
+    .release pre { white-space: pre-wrap; color: var(--muted); font: 14px/1.6 var(--sans); margin: 8px 0 0; }
+    footer { padding: 48px 0 64px; color: var(--faint); font-size: 14px; border-top: 1px solid var(--rule); }
+
+    /* Reveal on scroll (skipped with reduced motion). */
+    .reveal { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
   </style>
 </head>
 <body>
-  <main>
-    <header><img src="icon.png" alt="" /> Kage</header>
+  <canvas id="wall" aria-hidden="true"></canvas>
 
+  <header class="top">
+    <div class="wrap">
+      <a class="logo" href="#"><b>影</b> Kage</a>
+      <nav class="links" aria-label="Seções">
+        <a href="#camada">Camada</a><a href="#parado">Parado</a><a href="#brilho">Brilho</a><a href="#telas">Telas</a><a href="#baixar">Baixar</a>
+      </nav>
+      <a class="btn primary small" href="#baixar">Baixar</a>
+    </div>
+  </header>
+
+  <main>
     <section class="hero">
-      <div class="kanji" aria-hidden="true">影</div>
-      <h1>Cuida do seu monitor OLED.</h1>
-      <p class="lead">Escurece o que fica parado, descansa a tela quando ninguém está olhando e lembra do que o painel
-        precisa, mesmo com vários computadores ligados no mesmo monitor.</p>
-      <div class="download">
-        <a class="button" id="dmg" href="https://github.com/KageApp/kageapp.github.io/releases/latest/download/Kage-mac.dmg">
-          Baixar para Mac
-        </a>
-        <span class="soft" id="version">Apple Silicon (M1 ou mais novo) · macOS 13+</span>
+      <div class="wrap hero-grid">
+        <div>
+          <div class="kanji" aria-hidden="true">影</div>
+          <h1>Seu OLED, <em>sem marcas</em>.</h1>
+          <p class="lead">O Kage cuida do monitor por você: cobre o que fica parado, escurece e apaga quando ninguém está olhando, acerta o brilho pelo próprio cabo e soma as horas do painel entre todos os computadores ligados nele.</p>
+          <div class="cta">
+            <a class="btn primary" id="dmg" href="https://github.com/KageApp/kageapp.github.io/releases/latest/download/Kage-mac.dmg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+              Baixar para Mac
+            </a>
+            <a class="btn ghost" href="#camada">Ver como funciona</a>
+          </div>
+          <p class="meta mono" id="version">Apple Silicon · macOS 13+ · grátis</p>
+        </div>
+        <div>
+          <div class="monitor" id="hero-monitor" aria-label="Monitor simulado com o Kage Wallpaper">
+            <div class="screen"><canvas class="dots"></canvas><div class="window"><div class="lines"></div></div></div>
+          </div>
+          <div class="stand"></div>
+        </div>
       </div>
-      <p class="soft">Windows: em breve.</p>
     </section>
 
-    <h2>O que ele faz</h2>
-    <div class="grid">
-      <div class="card"><h3>Camada sobre o papel de parede</h3><p>Cobre até o papel de parede imposto pela empresa: preto puro, o Kage Wallpaper (bolinhas que deslizam devagar) ou conjuntos das suas fotos e dos papéis de parede do macOS.</p></div>
-      <div class="card"><h3>Escurece e apaga</h3><p>Escurece depois de alguns minutos parado e apaga a tela depois de mais um tempo. Não faz isso com vídeo tocando.</p></div>
-      <div class="card"><h3>Horas do painel</h3><p>Conta as horas acesas e lembra de deixar o monitor em espera para ele rodar o Pixel Clean.</p></div>
-      <div class="card"><h3>Vários computadores</h3><p>Computadores que dividem o monitor se acham na rede e formam um grupo de iguais: horas, ajustes e papéis de parede andam juntos, sem contar em dobro.</p></div>
-      <div class="card"><h3>Brilho do monitor</h3><p>Fala com o monitor pelo cabo de vídeo: brilho de dia e de noite, brilho baixo quando ninguém está usando e um guia que corrige o que está fora do lugar.</p></div>
-      <div class="card"><h3>Atualiza sozinho</h3><p>Avisa quando sai versão nova e instala com um clique.</p></div>
-    </div>
+    <section class="chapter" id="problema">
+      <div class="wrap chapter-grid">
+        <div class="reveal">
+          <span class="eyebrow">O problema</span>
+          <h2>O que fica parado, marca.</h2>
+          <p>Num OLED cada pixel é a própria luz, e ele envelhece com o uso. Dock, barra de menus, um papel de parede claro da empresa: horas no mesmo lugar viram uma sombra permanente.</p>
+          <p>Arraste o tempo e compare o desgaste de um dia de trabalho comum com o mesmo dia com o Kage.</p>
+          <div class="controls">
+            <div class="chips" role="group" aria-label="Comparar">
+              <button class="chip" data-heat="sem" aria-pressed="true">Sem Kage</button>
+              <button class="chip" data-heat="com" aria-pressed="false">Com Kage</button>
+            </div>
+            <div class="range"><label for="heat-hours">Horas de uso <output class="mono" id="heat-out">8 h</output></label><input id="heat-hours" type="range" min="1" max="2000" value="8" /></div>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="heat"><canvas id="heat" aria-label="Mapa de desgaste do painel"></canvas></div>
+          <div class="heat-legend"><span>pouco uso</span><span>desgaste acumulado</span></div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Primeira abertura no Mac</h2>
-    <p>O Kage ainda não é assinado pela Apple, então o macOS pede uma confirmação na primeira vez:</p>
-    <ol>
-      <li>Abra o <code>Kage-mac-…dmg</code> e arraste o Kage para Aplicativos.</li>
-      <li>Abra o Kage. O macOS vai dizer que não pode verificar o desenvolvedor; clique em <strong>OK</strong>.</li>
-      <li>Vá em <strong>Ajustes do Sistema › Privacidade e Segurança</strong>, role até o aviso do Kage e clique em
-        <strong>Abrir Mesmo Assim</strong>.</li>
-    </ol>
-    <p class="soft">Se preferir o Terminal: <code>xattr -dr com.apple.quarantine /Applications/Kage.app</code></p>
-    <p>O Kage fica na barra de menus, lá em cima à direita (não aparece no Dock). As atualizações seguintes chegam
-      pelo próprio app.</p>
+    <section class="chapter" id="camada">
+      <div class="wrap chapter-grid flip">
+        <div class="reveal">
+          <span class="eyebrow">Capítulo 1 · Camada</span>
+          <h2>Por cima do papel de parede, até o da empresa.</h2>
+          <p>O Kage desenha uma camada logo acima do papel de parede e abaixo dos ícones. Não muda a política do MDM: só o que aparece na tela.</p>
+          <div class="controls">
+            <div class="chips" role="group" aria-label="Estilo da camada">
+              <button class="chip" data-style="empresa" aria-pressed="false">Sem camada</button>
+              <button class="chip" data-style="preto" aria-pressed="false">Preto</button>
+              <button class="chip" data-style="kage" aria-pressed="true">Kage</button>
+              <button class="chip" data-style="degrade" aria-pressed="false">Degradê</button>
+              <button class="chip" data-style="fotos" aria-pressed="false">Conjunto de fotos</button>
+            </div>
+            <div class="readout" id="style-read">Kage: bolinhas que deslizam sempre na diagonal, em proporção √2, e passam por todos os pixels por igual.</div>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="monitor" id="layer-monitor">
+            <div class="screen"><canvas class="dots"></canvas><div class="menubar"><i></i><i></i><i></i></div><div class="dock"></div></div>
+          </div>
+          <div class="stand"></div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Juntar outro computador</h2>
-    <ol>
-      <li>Instale o Kage no outro computador, na mesma rede.</li>
-      <li>Nele, abra o Kage › <strong>Computadores</strong> e toque em <strong>Juntar</strong> ao lado do outro computador.</li>
-      <li>No outro computador, a janela do Kage abre sozinha: toque em <strong>Aceitar</strong>. Pronto, os dois são iguais.</li>
-    </ol>
+    <section class="chapter" id="parado">
+      <div class="wrap chapter-grid">
+        <div class="reveal">
+          <span class="eyebrow">Capítulo 2 · Quando parado</span>
+          <h2>Ninguém olhando? Escurece, depois apaga.</h2>
+          <p>Cada tela tem o próprio relógio. Com vídeo tocando ou chamada aberta, o Kage não mexe. Qualquer toque volta tudo como estava, inclusive o brilho.</p>
+          <div class="controls">
+            <div class="range"><label for="idle">Minutos parado <output class="mono" id="idle-out">0 min</output></label><input id="idle" type="range" min="0" max="15" value="0" /></div>
+            <div class="readout" id="idle-read">Em uso.</div>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="monitor" id="idle-monitor">
+            <div class="screen"><canvas class="dots"></canvas><div class="window"><div class="lines"></div></div><div class="veil"></div></div>
+          </div>
+          <div class="stand"></div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Versões</h2>
-    <div class="card" id="releases"><p>Carregando…</p></div>
+    <section class="chapter" id="brilho">
+      <div class="wrap chapter-grid flip">
+        <div class="reveal">
+          <span class="eyebrow">Capítulo 3 · Brilho pelo cabo</span>
+          <h2>O brilho de verdade, não uma película.</h2>
+          <p>O Kage fala com o monitor pelo cabo de vídeo (DDC/CI): baixa o brilho real ao descansar, segue o dia e a noite e, se o brilho ficar baixo sem motivo, devolve sozinho.</p>
+          <div class="controls">
+            <div class="range"><label for="hour">Hora do dia <output class="mono" id="hour-out">14h</output></label><input id="hour" type="range" min="0" max="23" value="14" /></div>
+            <div class="range"><label for="day">De dia <output class="mono" id="day-out">50%</output></label><input id="day" type="range" min="5" max="100" step="5" value="50" /></div>
+            <div class="range"><label for="night">À noite <output class="mono" id="night-out">30%</output></label><input id="night" type="range" min="5" max="100" step="5" value="30" /></div>
+            <div class="readout" id="bright-read"></div>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="monitor" id="bright-monitor">
+            <div class="screen"><canvas class="dots"></canvas><div class="window"><div class="lines"></div></div><div class="veil"></div></div>
+          </div>
+          <div class="stand"></div>
+        </div>
+      </div>
+    </section>
 
-    <footer>Kage (影) é "sombra" em japonês.</footer>
+    <section class="chapter" id="telas">
+      <div class="wrap chapter-grid">
+        <div class="reveal">
+          <span class="eyebrow">Capítulo 4 · Telas e computadores</span>
+          <h2>Um monitor, vários Macs. Todos iguais.</h2>
+          <p>Computadores que dividem o monitor (no KVM ou trocando a entrada) se acham na rede e formam um grupo sem chefe. Juntar é tocar em Juntar num e Aceitar no outro.</p>
+          <p>As horas do painel somam sem contar em dobro; ajustes, papéis de parede e atualizações andam juntos. Se um desliga, o outro segue sozinho.</p>
+          <div class="controls">
+            <div class="chips" role="group" aria-label="Quem está usando">
+              <button class="chip" data-use="a" aria-pressed="true">Usando o Mac mini</button>
+              <button class="chip" data-use="b" aria-pressed="false">Usando o MacBook Air</button>
+              <button class="chip" data-use="none" aria-pressed="false">Ninguém</button>
+            </div>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="group" id="group">
+            <div class="node" data-node="a"><span class="state">em uso</span><h4>Mac mini</h4><div class="mono">v0.13 · AORUS FO32U2P</div></div>
+            <div class="node" data-node="b"><span class="state">parado</span><h4>MacBook Air</h4><div class="mono">v0.13 · AORUS FO32U2P</div></div>
+            <div class="sync" aria-hidden="true"></div>
+            <div class="node panel-node"><div class="mono">AORUS FO32U2P · OLED</div><div class="hours" id="panel-hours">2,0 h</div><div class="mono" id="panel-note">acesas desde o último descanso</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter" id="guia">
+      <div class="wrap chapter-grid flip">
+        <div class="reveal">
+          <span class="eyebrow">Capítulo 5 · Guia que corrige</span>
+          <h2>Não só explica: arruma.</h2>
+          <p>O guia lê o estado real do Mac e de cada tela e, quando dá, oferece a correção num toque. O que mora no menu do monitor (Pixel Clean, Pixel Shift) fica como conselho.</p>
+        </div>
+        <div class="reveal">
+          <div class="guide" id="guide"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter">
+      <div class="wrap">
+        <span class="eyebrow reveal">E mais</span>
+        <h2 class="reveal">Detalhes que importam.</h2>
+        <div class="grid">
+          <div class="card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg><h3>Reconhece OLED</h3><p>Pelo cabo ou pelo modelo. Se não souber, pergunta, e o seu "não é OLED" desliga o que não serve.</p></div>
+          <div class="card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg><h3>Atualiza sozinho</h3><p>Avisa quando sai versão, mostra o progresso e atualiza todos os computadores do grupo de uma vez.</p></div>
+          <div class="card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="m3 15 5-5 4 4 3-3 6 6"/></svg><h3>Seus papéis de parede</h3><p>Fotos do computador ou os papéis do macOS, em conjuntos que trocam no tempo que você escolher, escurecidos para o OLED.</p></div>
+          <div class="card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10 21h4"/></svg><h3>Avisos certos</h3><p>Lembra do descanso para o Pixel Clean e avisa de brilho alto por horas. Você escolhe o que quer ouvir.</p></div>
+          <div class="card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/></svg><h3>Seguro na rede</h3><p>Só os computadores que você aceitou falam com o Kage; sites abertos no navegador não conseguem.</p></div>
+          <div class="card reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M6 9h4M6 13h8"/></svg><h3>Por tela</h3><p>Camada, brilho e tempos podem ser diferentes em cada monitor, com o resto igual para todos.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chapter download" id="baixar">
+      <div class="wrap">
+        <div class="kanji reveal" aria-hidden="true">影</div>
+        <h2 class="reveal">Pronto para cuidar do seu OLED?</h2>
+        <p class="lead reveal" style="margin: 0 auto">Grátis, para Macs com Apple Silicon e macOS 13 ou mais novo.</p>
+        <a class="btn primary reveal" id="dmg2" href="https://github.com/KageApp/kageapp.github.io/releases/latest/download/Kage-mac.dmg">Baixar para Mac</a>
+        <p class="meta mono" id="version2"></p>
+
+        <div class="steps">
+          <div class="step reveal"><p>Abra o <code>Kage-mac-….dmg</code> e <strong>arraste o Kage para Aplicativos</strong>.</p></div>
+          <div class="step reveal"><p>Abra o Kage. Na primeira vez o macOS avisa que não pode verificar o desenvolvedor: em <strong>Ajustes do Sistema › Privacidade e Segurança</strong>, clique em <strong>Abrir Mesmo Assim</strong>. (No Terminal: <code>xattr -dr com.apple.quarantine /Applications/Kage.app</code>.)</p></div>
+          <div class="step reveal"><p>O Kage fica na <strong>barra de menus</strong>. Em <strong>Telas</strong> estão seus monitores; em outro Mac, toque em <strong>Juntar</strong> e aceite neste.</p></div>
+        </div>
+
+        <div style="max-width: 760px; margin: 48px auto 0; text-align: left">
+          <h3 class="reveal">Perguntas</h3>
+          <details class="faq reveal"><summary>Funciona com monitor que não é OLED?</summary><p>Sim. Marque "não é OLED" e ficam escurecer, apagar quando parado e o brilho pelo cabo; os cuidados contra marcas saem de cena.</p></details>
+          <details class="faq reveal"><summary>Uso um hub DisplayLink e aparece uma bolinha no canto.</summary><p>É o indicador de gravação de tela do macOS: o DisplayLink funciona gravando a tela. Ligue o monitor direto no USB-C ou num dock de vídeo nativo e ela some (e os Hz sobem).</p></details>
+          <details class="faq reveal"><summary>Meu papel de parede é da empresa (MDM). Pode?</summary><p>O Kage não muda a política: desenha uma camada própria por cima. Se a empresa reaplicar o papel de parede, a camada continua lá.</p></details>
+          <details class="faq reveal"><summary>Windows?</summary><p>Em breve, entrando no mesmo grupo dos Macs.</p></details>
+        </div>
+
+        <div style="max-width: 760px; margin: 48px auto 0; text-align: left">
+          <h3 class="reveal">Versões</h3>
+          <div id="releases" class="reveal"><p class="meta">Carregando…</p></div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer><div class="wrap">Kage (影) é "sombra" em japonês. Feito para quem não quer ver o próprio Dock gravado na tela.</div></footer>
+
   <script>
-    fetch("releases.json", { cache: "no-store" })
-      .then((r) => (r.ok ? r.json() : []))
-      .then((releases) => {
-        const box = document.getElementById("releases");
-        if (!releases.length) { box.innerHTML = "<p>Nenhuma versão publicada ainda.</p>"; return; }
-        document.getElementById("version").textContent = `Versão ${releases[0].version} · Apple Silicon · macOS 13+`;
-        // The button downloads the versioned file (Kage-mac-x.y.z.dmg).
-        document.getElementById("dmg").href = releases[0].dmg;
-        box.replaceChildren(...releases.map((r) => {
-          const el = document.createElement("div");
-          el.className = "release";
-          const title = document.createElement("strong"); title.textContent = r.version;
-          const date = document.createElement("span"); date.className = "soft"; date.textContent = r.date;
-          const link = document.createElement("a"); link.href = r.dmg; link.textContent = " · .dmg";
-          const notes = document.createElement("pre"); notes.textContent = r.notes || "";
-          el.append(title, date, link, notes);
-          return el;
-        }));
-      })
-      .catch(() => {});
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    /* Kage wallpaper, the app's own algorithm: a straight grid gliding diagonally (x:y = √2), never turning back. */
+    function dots(canvas, { gap = 24, alpha = 0.22, speed = 1, glow = true } = {}) {
+      const ctx = canvas.getContext("2d");
+      let style = "kage";
+      const draw = () => {
+        const dpr = Math.min(devicePixelRatio || 1, 2);
+        const w = canvas.clientWidth, h = canvas.clientHeight;
+        if (!w || !h) return;
+        if (canvas.width !== Math.round(w * dpr)) { canvas.width = Math.round(w * dpr); canvas.height = Math.round(h * dpr); }
+        const t = (reduce ? 0 : performance.now() / 1000) * speed;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.fillStyle = "#000"; ctx.fillRect(0, 0, w, h);
+        if (style === "empresa") {
+          const g = ctx.createLinearGradient(0, 0, w, h); g.addColorStop(0, "#5a7fd6"); g.addColorStop(1, "#d65a8e");
+          ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+          ctx.fillStyle = "rgba(255,255,255,.85)"; ctx.font = `600 ${Math.max(10, w / 16)}px IBM Plex Sans`; ctx.fillText("EMPRESA S.A.", w * 0.08, h * 0.55); return;
+        }
+        if (style === "preto") return;
+        if (style === "fotos") {
+          const g = ctx.createLinearGradient(0, h, w, 0); g.addColorStop(0, "#1d2b22"); g.addColorStop(0.5, "#3a2a2e"); g.addColorStop(1, "#24344a");
+          ctx.fillStyle = g; ctx.fillRect(0, 0, w, h); ctx.fillStyle = "rgba(0,0,0,.4)"; ctx.fillRect(0, 0, w, h); return;
+        }
+        if ((glow && style === "kage") || style === "degrade") {
+          const gx = w * (0.5 + 0.4 * Math.sin(t / 53)), gy = h * (0.5 + 0.4 * Math.sin(t / 71 + 1.1));
+          const r = Math.max(w, h) * (style === "degrade" ? 0.9 : 0.6);
+          const g = ctx.createRadialGradient(gx, gy, 0, gx, gy, r); g.addColorStop(0, `rgba(201,168,106,${style === "degrade" ? 0.22 : 0.12})`); g.addColorStop(1, "rgba(201,168,106,0)");
+          ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+        }
+        if (style === "degrade") return;
+        const vx = 6, vy = vx / Math.SQRT2;
+        const ox = ((vx * t) % gap + gap) % gap, oy = ((-vy * t) % gap + gap) % gap;
+        ctx.fillStyle = `rgba(255,255,255,${alpha})`; ctx.beginPath();
+        for (let x = -gap + ox; x < w + gap; x += gap) for (let y = -gap + oy; y < h + gap; y += gap) { ctx.moveTo(x + 1.3, y); ctx.arc(x, y, 1.3, 0, Math.PI * 2); }
+        ctx.fill();
+      };
+      const api = { draw, set(s) { style = s; draw(); } };
+      return api;
+    }
+    const painters = [];
+    const wall = dots(document.getElementById("wall"), { gap: 28, alpha: 0.07, speed: 0.6, glow: false }); painters.push(wall);
+    document.querySelectorAll(".monitor canvas.dots").forEach((c) => painters.push(dots(c, { gap: 14, alpha: 0.28, speed: 1.5 })));
+    const loop = () => { painters.forEach((p) => p.draw()); if (!reduce) requestAnimationFrame(loop); };
+    loop();
+    addEventListener("resize", () => painters.forEach((p) => p.draw()));
+
+    // Dock icons
+    const colors = ["#5ac8fa", "#ff9f0a", "#30d158", "#bf5af2", "#ff375f", "#64d2ff", "#ffd60a", "#8e8e93"];
+    document.querySelectorAll(".dock").forEach((d) => colors.forEach((c) => { const i = document.createElement("i"); i.style.background = c; d.append(i); }));
+
+    const press = (group, btn) => group.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b === btn)));
+
+    /* Chapter 1: layer styles on the simulated screen. */
+    const layer = painters[2];
+    const styleText = {
+      empresa: "Sem camada: o papel de parede claro da empresa, aceso o dia inteiro atrás das janelas.",
+      preto: "Preto: no OLED, pixel preto é pixel apagado. Gasto zero.",
+      kage: "Kage: bolinhas que deslizam sempre na diagonal, em proporção √2, e passam por todos os pixels por igual.",
+      degrade: "Degradê: um brilho dourado que passeia devagar pela tela inteira sobre preto puro.",
+      fotos: "Conjunto: suas fotos ou as do macOS, trocando no intervalo que você escolher, escurecidas e com um zoom lento.",
+    };
+    document.querySelectorAll("[data-style]").forEach((b) => b.addEventListener("click", () => {
+      press(b.parentElement, b); layer.set(b.dataset.style);
+      document.getElementById("style-read").textContent = styleText[b.dataset.style];
+      const hide = b.dataset.style !== "empresa";
+      document.querySelector("#layer-monitor .dock").style.transform = hide ? "translate(-50%, 160%)" : "translateX(-50%)";
+      document.querySelector("#layer-monitor .menubar").style.transform = hide ? "translateY(-110%)" : "none";
+    }));
+
+    /* Chapter 2: idle timeline. */
+    const idle = document.getElementById("idle"), idleVeil = document.querySelector("#idle-monitor .veil");
+    const idleUpdate = () => {
+      const m = +idle.value; document.getElementById("idle-out").textContent = `${m} min`;
+      let text = "Em uso: nada muda.", op = 0;
+      if (m >= 10) { text = "10 min: tela apagada. Pixel preto, painel descansando. Mexeu, volta tudo, inclusive o brilho."; op = 1; }
+      else if (m >= 3) { text = `${m} min: escurecida (85%) e brilho baixado pelo cabo. Apaga aos 10 min.`; op = 0.85; }
+      else if (m > 0) { text = `${m} min parado: ainda nada. Escurece aos 3 min.`; }
+      idleVeil.style.opacity = op; document.getElementById("idle-read").textContent = text;
+    };
+    idle.addEventListener("input", idleUpdate); idleUpdate();
+
+    /* Chapter 3: brightness by day and night. */
+    const hour = document.getElementById("hour"), day = document.getElementById("day"), night = document.getElementById("night");
+    const brightVeil = document.querySelector("#bright-monitor .veil");
+    const brightUpdate = () => {
+      const h = +hour.value, isNight = h >= 20 || h < 7, level = isNight ? +night.value : +day.value;
+      document.getElementById("hour-out").textContent = `${String(h).padStart(2, "0")}h`;
+      document.getElementById("day-out").textContent = `${day.value}%`;
+      document.getElementById("night-out").textContent = `${night.value}%`;
+      brightVeil.style.opacity = (1 - level / 100) * 0.8;
+      document.getElementById("bright-read").textContent = `${isNight ? "Noite" : "Dia"}: monitor em ${level}%${level > 60 ? " · alto para texto num OLED; 30 a 60% poupa o painel" : ""}.`;
+    };
+    [hour, day, night].forEach((i) => i.addEventListener("input", brightUpdate)); brightUpdate();
+
+    /* Chapter 4: one panel, two computers. */
+    let hours = 2.0, using = "a";
+    document.querySelectorAll("[data-use]").forEach((b) => b.addEventListener("click", () => {
+      press(b.parentElement, b); using = b.dataset.use;
+      document.querySelectorAll("#group .node[data-node]").forEach((n) => {
+        const on = n.dataset.node === using; n.classList.toggle("on", on); n.querySelector(".state").textContent = on ? "em uso" : "parado";
+      });
+      document.getElementById("panel-note").textContent = using === "none" ? "descansando: o Pixel Clean pode rodar" : "acesas desde o último descanso, contadas uma vez só";
+    }));
+    document.querySelector('#group .node[data-node="a"]').classList.add("on");
+    setInterval(() => { if (using !== "none") hours += 0.1; document.getElementById("panel-hours").textContent = `${hours.toFixed(1).replace(".", ",")} h`; }, 1500);
+
+    /* Chapter 5: the guide fixes. */
+    const items = [
+      ["Dock", "Fica sempre no mesmo lugar: um dos maiores riscos de marca.", "Esconder"],
+      ["Barra de menus", "Acesa no topo o dia inteiro.", "Esconder"],
+      ["Brilho em 85%", "Para texto, 30 a 60% poupa o painel.", "Usar 50%"],
+      ["Brilho de dia e de noite", "Baixar à noite reduz bem o desgaste.", "Ligar"],
+      ["Apagar quando parado", "O Kage apaga a tela depois de 10 min parado.", null],
+    ];
+    const ok = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>';
+    const warn = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17h.01"/></svg>';
+    const guide = document.getElementById("guide");
+    items.forEach(([t, d, action]) => {
+      const el = document.createElement("div"); el.className = `gitem ${action ? "warn" : "ok"}`;
+      el.innerHTML = `${action ? warn : ok}<div><div class="t"></div><div class="d"></div></div>`;
+      el.querySelector(".t").textContent = t; el.querySelector(".d").textContent = d;
+      if (action) {
+        const b = document.createElement("button"); b.textContent = action;
+        b.addEventListener("click", () => { el.className = "gitem ok"; el.querySelector("svg").outerHTML = ok; el.querySelector(".d").textContent = "Resolvido."; b.remove(); });
+        el.append(b);
+      }
+      guide.append(el);
+    });
+
+    /* Burn-in heat map: static UI accumulates wear without Kage; with it, wear spreads thin. */
+    const heat = document.getElementById("heat"), hctx = heat.getContext("2d");
+    let heatMode = "sem";
+    const heatDraw = () => {
+      const w = heat.clientWidth, h = heat.clientHeight, dpr = Math.min(devicePixelRatio || 1, 2);
+      heat.width = w * dpr; heat.height = h * dpr; hctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      const hours = +document.getElementById("heat-hours").value;
+      document.getElementById("heat-out").textContent = hours < 1000 ? `${hours} h` : `${(hours / 1000).toFixed(1).replace(".", ",")} mil h`;
+      const k = Math.min(1, Math.log10(1 + hours) / 3.3);
+      hctx.fillStyle = "#000"; hctx.fillRect(0, 0, w, h);
+      const tone = (a) => `rgba(255, ${Math.round(140 - a * 90)}, ${Math.round(60 - a * 50)}, ${a})`;
+      if (heatMode === "sem") {
+        hctx.fillStyle = tone(0.18 * k); hctx.fillRect(0, 0, w, h);                       // bright corporate wallpaper
+        hctx.fillStyle = tone(0.95 * k); hctx.fillRect(0, 0, w, h * 0.065);              // menu bar
+        hctx.fillRect(w * 0.27, h * 0.86, w * 0.46, h * 0.1);                            // Dock
+        hctx.fillStyle = tone(0.6 * k); hctx.fillRect(w * 0.16, h * 0.16, w * 0.52, h * 0.06); // a window title bar left in place
+        hctx.fillStyle = tone(0.8 * k); hctx.beginPath(); hctx.arc(w * 0.965, h * 0.035, 4, 0, Math.PI * 2); hctx.fill(); // recording dot
+      } else {
+        hctx.fillStyle = tone(0.06 * k); hctx.fillRect(0, 0, w, h);                       // even, thin wear
+        hctx.fillStyle = tone(0.12 * k); hctx.fillRect(w * 0.16, h * 0.16, w * 0.52, h * 0.52);
+      }
+      hctx.fillStyle = "rgba(255,255,255,.55)"; hctx.font = "12px JetBrains Mono, monospace";
+      hctx.fillText(heatMode === "sem" ? "menu, Dock e papel de parede gravados" : "desgaste espalhado e baixo", 12, h - 12);
+    };
+    document.getElementById("heat-hours").addEventListener("input", heatDraw);
+    document.querySelectorAll("[data-heat]").forEach((b) => b.addEventListener("click", () => { press(b.parentElement, b); heatMode = b.dataset.heat; heatDraw(); }));
+    addEventListener("resize", heatDraw); heatDraw();
+
+    /* Reveal on scroll. */
+    const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: 0.15 });
+    document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+    /* Releases: latest version, download link and notes. */
+    fetch("releases.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : [])).then((releases) => {
+      const box = document.getElementById("releases");
+      if (!releases.length) { box.innerHTML = '<p class="meta">Nenhuma versão publicada ainda.</p>'; return; }
+      const v = releases[0];
+      document.getElementById("version").textContent = `v${v.version} · Apple Silicon · macOS 13+ · grátis`;
+      document.getElementById("version2").textContent = `Kage-mac-${v.version}.dmg`;
+      ["dmg", "dmg2"].forEach((id) => (document.getElementById(id).href = v.dmg));
+      box.replaceChildren(...releases.slice(0, 12).map((r) => {
+        const el = document.createElement("div"); el.className = "release";
+        const t = document.createElement("span"); t.className = "v"; t.textContent = `v${r.version}`;
+        const d = document.createElement("span"); d.className = "date"; d.textContent = r.date;
+        const n = document.createElement("pre"); n.textContent = r.notes || "";
+        el.append(t, d, n); return el;
+      }));
+    }).catch(() => {});
   </script>
 </body>
 </html>

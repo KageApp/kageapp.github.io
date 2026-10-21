@@ -1,11 +1,11 @@
 {
-  "version": "0.13.0",
-  "notes": "Novidades:\n\n- brilho organizado num cartão só por tela, e instalador com a cara do Kage",
-  "pub_date": "2026-10-21T20:42:15Z",
+  "version": "0.14.0",
+  "notes": "Novidades:\n\n- site novo e interativo, app mais polido e as novidades da versão dentro do app",
+  "pub_date": "2026-10-21T21:03:58Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDFxNjBzQUkra1dNeDk4NUFFVE9vdkh6SEd5S0ltYTVIL0FTUmxVWnVSYlo5S2NiQnFpTVRqcnhwNzVtdTZzZDZqSlNDRVR1bXNZSTlWNU5FVXJkSWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE1MzI5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMy4wCmRDMUxJWTBxeHFuMWZMeWRQbDB2QjVwVEpqemxLSFREd0JXVUtBYTRJSlNnMEM4RlExN2FkWDJTNnh0REtvZ0RQRnRnckNLS3dMUU1YMzhOYUhackNBPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.13.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDhVbzFuTk1ubUhMNkpLVWpLekRiUzBBVkczdlMrSzNpcDFrcmJmRnpWOWZIVUUrUHVRZkQ0aGgxTnhSa0N0ZjYyRWZsMUpaU0pUVkc4MEdCZXYvQWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjE2NjMyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xNC4wCitOeEsrWER4MUdEbmc3YXNTSzZZK20vNG10Q2Q3K2hKUUVISkJZSTZjVXVBdjhhaUJtVGFwU0hLdU4xdGkzUjYvYlhHaUJLdVpzTEhnWExkN2NCTkNnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.14.0/Kage-mac.app.tar.gz"
     }
   }
 }
