@@ -1,11 +1,11 @@
 {
-  "version": "0.10.0",
-  "notes": "Novidades:\n\n- escurecer após, apagar após e quanto escurecer por tela",
-  "pub_date": "2026-10-21T19:09:38Z",
+  "version": "0.10.1",
+  "notes": "Correções:\n\n- o brilho voltava a ficar baixo depois de uma pausa num monitor dividido",
+  "pub_date": "2026-10-21T19:12:14Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDJJV3hVbkJFRGpIakZ0OTlYVFFZQ1kxM0xMTWpOTWlDZ2NsemJFZ0h6WVZobHVOWTdWOVJ6WGRxb0d3UnJDNXpCRVA0WXRERmNJaXRkUkdiQnZSMkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5NzcyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMC4wCjRkcnd1emd3em5PMCtZenJoN29JRVZLYVZvdWZiL1gwcVJrN1hVTkNReWpwYnFzYmV0S052ZUpONGhqNzBEWTlXUnNDbzRmdEI1MXRSV1d4eU1LNkRnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.10.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDZiMjNTTERnaDVxWXp2WDZkM0swbnp2M0prWC94THZjSzRZRWdzUDZ1Q1BUaXo2NC9qVDJ5bUowRWE0amd6ZlZNdUt5bDBid0NUclZQZ1Y2dStRQUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA5OTI4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMC4xCmhES2lDaUdRdmJKakxSYllOd091L1c4akExSEszTDFRbGN1Ull3REhxbkt1ZWV5UUVlVjNQVlAvZnQyMUM5LzAxQ21QNHpWcjVsTWM5M2lPMUZaOUFBPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.10.1/Kage-mac.app.tar.gz"
     }
   }
 }

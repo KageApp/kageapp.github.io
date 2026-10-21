@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.10.1",
+    "date": "2026-10-21",
+    "notes": "Correções:\n\n- o brilho voltava a ficar baixo depois de uma pausa num monitor dividido",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.10.1/Kage-mac.dmg"
+  },
+  {
     "version": "0.10.0",
     "date": "2026-10-21",
     "notes": "Novidades:\n\n- escurecer após, apagar após e quanto escurecer por tela",
