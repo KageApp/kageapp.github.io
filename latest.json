@@ -1,11 +1,11 @@
 {
-  "version": "0.11.1",
-  "notes": "Correções:\n\n- Voltar no Papel de parede volta para onde veio",
-  "pub_date": "2026-10-21T19:25:29Z",
+  "version": "0.12.0",
+  "notes": "Novidades:\n\n- o Kage reconhece monitores OLED sozinho e só pergunta quando não sabe",
+  "pub_date": "2026-10-21T19:28:14Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCtGeEMrR3hJbjhsRlJoa0RwUHZWb2loZE1BMUxNTTlYbmlnblZDYnA5dDhkV2x0UUtoZEcvblQ2ZGZ3cVpOUXY3RjJFckdEbXBjSlhUcjdQaVdTYVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwNzIzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMS4xCmkrSU1WbVgwVnRLcE1TeCtyVXN6akhsa1oxNmdVS3NPWUZ5SUVxNUt0S2hDU1BNcHZ0OHcwV3dDQ0N1L3hXenF5cFdmamVJUVljUzVwbjNKcEpYN0RnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.11.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDg0bFFJaFV4N3dNcGphbFJ1cTdTbGJPcU52dFhKeUc2VTMxUElMclIwYkRZekxScFNrRE5xejNmZFFud2NMdWd1QTdJbCtJLzJkSUJuNCs3eS9RdEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjEwODg5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4xMi4wCjVRalRzaitvZkFNbVJPVGY5TE5GVnNmc29RczZ5d0JVS0ZyUWFmbk5EM1NVanM5M20xd2c3WEI0SUh4Q2J4Yi84cUdMKzRHK2FydG4vOWNONUcycUNnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.12.0/Kage-mac.app.tar.gz"
     }
   }
 }
