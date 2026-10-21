@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.20.0",
+    "date": "2026-10-21",
+    "notes": "Novidades:\n\n- chaves para ligar a troca de computador e a troca apagando e acendendo",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.20.0/Kage-mac-0.20.0.dmg"
+  },
+  {
     "version": "0.19.1",
     "date": "2026-10-21",
     "notes": "Correções:\n\n- botão de mostrar o computador sempre visível",
