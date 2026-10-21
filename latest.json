@@ -1,11 +1,11 @@
 {
-  "version": "0.4.0",
-  "notes": "Novidades:\n\n- Atualizar todos em Computadores",
-  "pub_date": "2026-10-21T18:02:33Z",
+  "version": "0.4.1",
+  "notes": "Correções:\n\n- computador dobrado no grupo, brilho baixado por engano e conjunto chegando sem as fotos\n- o seletor de papéis de parede do macOS ficava embaralhado\n- sem Escurecer/Apagar todos num monitor compartilhado, e Juntar não pede de novo a quem já está no grupo",
+  "pub_date": "2026-10-21T18:22:58Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDlIWGJQSGJhY0plMTMxeFRZbi9DdEcyVFJVdTFQSWVPdGRTMEFQVnc4REkwWk0zcHc2SUJzOCt5RDhlRVdxdDRZSm5Dai9NUElJRC96ZlFYYnprSlE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA1NzQ2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC40LjAKN1RYaHdUZnlybjdweFExeWFBWjdvVkhWcUNlZU5Iam1FN25iVHJHeGRhZDlGclpXNWRPSVJzMHF3RVFzMTBUcjNqbSs4UTUzY1hPRGlwUmtDMkJBQ2c9PQo=",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.4.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDhrNW1RT1U2NjZyTmxNZXlGcWd1OFdJRHlIUi81N0xxcmhXb3pFbVd3b3IraG5FMVZKeTdhaVQ5Mi9zTXZGdGtFTDRLS2t2dVNtMlJNdnlFMUVLdXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjA2OTYzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC40LjEKOElxOUN6STloZEVnQTdDbWg0YmU2NTB4OFB0ZzR6bi91VWlGMHBReGNxSmlTb2ZtMnJ6aDZMcUgyc0lrYm1yMHhHa0lZU3l3QXRFMFhWTG5tU3cxQlE9PQo=",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.4.1/Kage-mac.app.tar.gz"
     }
   }
 }
