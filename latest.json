@@ -1,11 +1,11 @@
 {
-  "version": "0.22.1",
-  "notes": "Correções:\n\n- revisão de UX do Manter acordado e do brilho do macOS",
-  "pub_date": "2026-10-23T04:31:09Z",
+  "version": "0.22.2",
+  "notes": "Correções:\n\n- texto do Manter acordado deixa claro que só o Mac fica acordado",
+  "pub_date": "2026-10-23T04:37:50Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCs0eG10a3FmbGdaZUkwZjVwTGU0SitYTWhCM3NGTU1jMnBSaEszbGlnR3JvVFZweXNPSjU5cHlLRllFandtbTYzRGRCTmMrcVZFcEg0eGdNVXgwMWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzI5ODU4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMi4xCjlrdi9vTXhHbWQ1TmtLb2JlSHgzWjlJOWRlTUtyUWRkQ3VXTjhCSTNYL3AvWXhFMGlTZnBqMk1OMkF6dTBRbUN5eW0va2Z0WElTOVU4TnNWMEFodkNnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.22.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCt3YWtQY1hNdHpVeE5VVFp4UEpZV1QwVnh1c2J0eDZVd2hONy9lVGJrdFAra0RxSDJLajhDYW9GQjBYMDlVZjAzVjlNcjR0THNHY0owU01iNk9TRGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzMwMjU5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMi4yCmhXQ3RGWXZ5Q2I3eTQrOStWbkFqSkNxWmdHVU1Ndmh0cUJwb1BaTzV5VWpHYWZkZkEyUEtXK2xjU2ZvOXNTNTkxWWdkcVZ6Q0FpTnVibWR1d1hDOERRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.22.2/Kage-mac.app.tar.gz"
     }
   }
 }
