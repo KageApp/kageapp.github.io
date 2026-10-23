@@ -1,11 +1,11 @@
 {
-  "version": "0.21.0",
-  "notes": "Novidades:\n\n- áreas paradas da tela e faixa escura sobre a barra de menus",
-  "pub_date": "2026-10-21T22:31:21Z",
+  "version": "0.22.0",
+  "notes": "Novidades:\n\n- manter o Mac acordado sem deixar o OLED aceso, brilho do macOS ao lado do monitor e logo hanko",
+  "pub_date": "2026-10-23T04:20:21Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDFBRVN6cmRDMStHdDZLM0ZtK0FvNlBvdVB3Ujc5MHc2VkxtcGltVUp2TlV4eHlsZ0lSdUU0dWFRVHJpc0JvUnhGM1FSemtPcWUxZzhFN05vcWUwN0FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjIxODc2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMS4wCkgyOE96SGtHZjdHQjRzWXFtekVIaFpXbmNvdlZxdUYxZ2tGMHN2Z0xTYjdLWHY2a21WbVV1MXJJbEtLeTM1SUVVZXZFcTN1UGNCRW8zZ0hEeDNPVURBPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.21.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDFYMUx3eHIzYjNkSmVwTDd4dlRJNU1zbktYOW1oemZhMnlxR3JZNHp6T0Yxc0drcDN3cUVDYVdxN050N1BuT0txcWxBTzdOQ2wremFpWGhrUG5qWndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzI5MjEwCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMi4wClBzZHV2cytsb3VpenNqbENPaDRDM3ZqbUtzeU95VkR1VjhpUlN3TlUxa2w5dTk2VjFJaTc1T3dFdlFyc09PL3YvT0R0d1NReTlQTXdHZzdYRFBscUJRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.22.0/Kage-mac.app.tar.gz"
     }
   }
 }
