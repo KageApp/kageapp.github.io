@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.23.1",
+    "date": "2026-10-23",
+    "notes": "Correções:\n\n- o macOS mostra o Sobre e os pedidos de permissão em português",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.23.1/Kage-mac-0.23.1.dmg"
+  },
+  {
     "version": "0.23.0",
     "date": "2026-10-23",
     "notes": "Novidades:\n\n- atalhos de teclado, Manter acordado mais seguro, MCP para o Claude, Sobre o Kage e instalador estilizado",

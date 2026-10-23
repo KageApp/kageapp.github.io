@@ -1,11 +1,11 @@
 {
-  "version": "0.23.0",
-  "notes": "Novidades:\n\n- atalhos de teclado, Manter acordado mais seguro, MCP para o Claude, Sobre o Kage e instalador estilizado",
-  "pub_date": "2026-10-23T23:20:04Z",
+  "version": "0.23.1",
+  "notes": "Correções:\n\n- o macOS mostra o Sobre e os pedidos de permissão em português",
+  "pub_date": "2026-10-23T23:22:54Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDlPK0JZRWpCVlRSdFlvQ3FTdTlRUWZWS2htL3l1MzRON2czLysrdWhuK2ZISjhlZlE0OFJZQkM1dW4rK1RCcnFCNmJNZE1HU1o2SEFpd2NsNVRtdWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzk3NTgxCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMy4wCjU3YmxXaGRvelhtVGJCV3pNbFpmS29UdGgydkdSbXFXc3R2SHAzQlNWWkc3RWhKMlJMZ0RTWXMvOTVNSnh1YnFlRzU3aG04Q3AxNHgyblFDUXVZMUFRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.23.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDdWY0ZJSFR3RVFmWnM5Uy8vQk0xVG1TMTZPNEQycGFJRE9zdmdtNDdsMjNqZFZreFZPVmt4SjNkMXdvSXhqN1p4bGlRUTYyS0Fiam1veXViaDh0eVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzk3NzU4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMy4xCnRpSXdaTUxXejVHYUwxMHJERzNpMU52Q0RaT3JoK3Zlb0NvVDQvMmM1K2V1L3l1ZjNPV3luR2M5TEpwaitJN1JVRVdFWjEvVlNlU1NvZ0h3V2oyVER3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.23.1/Kage-mac.app.tar.gz"
     }
   }
 }
