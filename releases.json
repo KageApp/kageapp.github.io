@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.23.0",
+    "date": "2026-10-23",
+    "notes": "Novidades:\n\n- atalhos de teclado, Manter acordado mais seguro, MCP para o Claude, Sobre o Kage e instalador estilizado",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.23.0/Kage-mac-0.23.0.dmg"
+  },
+  {
     "version": "0.22.3",
     "date": "2026-10-23",
     "notes": "Correções:\n\n- textos do Manter acordado com vírgula e \"Continuar acordado com a tampa fechada\"",
