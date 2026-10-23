@@ -1,11 +1,11 @@
 {
-  "version": "0.22.0",
-  "notes": "Novidades:\n\n- manter o Mac acordado sem deixar o OLED aceso, brilho do macOS ao lado do monitor e logo hanko",
-  "pub_date": "2026-10-23T04:20:21Z",
+  "version": "0.22.1",
+  "notes": "Correções:\n\n- revisão de UX do Manter acordado e do brilho do macOS",
+  "pub_date": "2026-10-23T04:31:09Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDFYMUx3eHIzYjNkSmVwTDd4dlRJNU1zbktYOW1oemZhMnlxR3JZNHp6T0Yxc0drcDN3cUVDYVdxN050N1BuT0txcWxBTzdOQ2wremFpWGhrUG5qWndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzI5MjEwCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMi4wClBzZHV2cytsb3VpenNqbENPaDRDM3ZqbUtzeU95VkR1VjhpUlN3TlUxa2w5dTk2VjFJaTc1T3dFdlFyc09PL3YvT0R0d1NReTlQTXdHZzdYRFBscUJRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.22.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCs0eG10a3FmbGdaZUkwZjVwTGU0SitYTWhCM3NGTU1jMnBSaEszbGlnR3JvVFZweXNPSjU5cHlLRllFandtbTYzRGRCTmMrcVZFcEg0eGdNVXgwMWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzI5ODU4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMi4xCjlrdi9vTXhHbWQ1TmtLb2JlSHgzWjlJOWRlTUtyUWRkQ3VXTjhCSTNYL3AvWXhFMGlTZnBqMk1OMkF6dTBRbUN5eW0va2Z0WElTOVU4TnNWMEFodkNnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.22.1/Kage-mac.app.tar.gz"
     }
   }
 }

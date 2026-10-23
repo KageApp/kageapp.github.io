@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.22.1",
+    "date": "2026-10-23",
+    "notes": "Correções:\n\n- revisão de UX do Manter acordado e do brilho do macOS",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.22.1/Kage-mac-0.22.1.dmg"
+  },
+  {
     "version": "0.22.0",
     "date": "2026-10-23",
     "notes": "Novidades:\n\n- manter o Mac acordado sem deixar o OLED aceso, brilho do macOS ao lado do monitor e logo hanko",
