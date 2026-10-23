@@ -1,11 +1,11 @@
 {
-  "version": "0.22.2",
-  "notes": "Correções:\n\n- texto do Manter acordado deixa claro que só o Mac fica acordado",
-  "pub_date": "2026-10-23T04:37:50Z",
+  "version": "0.22.3",
+  "notes": "Correções:\n\n- textos do Manter acordado com vírgula e \"Continuar acordado com a tampa fechada\"",
+  "pub_date": "2026-10-23T04:39:04Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCt3YWtQY1hNdHpVeE5VVFp4UEpZV1QwVnh1c2J0eDZVd2hONy9lVGJrdFAra0RxSDJLajhDYW9GQjBYMDlVZjAzVjlNcjR0THNHY0owU01iNk9TRGdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzMwMjU5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMi4yCmhXQ3RGWXZ5Q2I3eTQrOStWbkFqSkNxWmdHVU1Ndmh0cUJwb1BaTzV5VWpHYWZkZkEyUEtXK2xjU2ZvOXNTNTkxWWdkcVZ6Q0FpTnVibWR1d1hDOERRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.22.2/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCtEcmFEbDQxc0ZLZ3Y0RUc4dTJFaWp3a3k3UTlrQW11QWtadTFSa3V6d3BUdTlLL3pCYmVZU2pWUjc3WC9SZnJCZE5nRTFUN3lmV0ZCNzZtODJzbndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzMwMzM0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMi4zCmh2T3VYRlZLZjJQUGFMNUxtNXdjZ29jVTVDM2tGNnJ2N2FxTm5oRERZdWN3dzhQSXRwWTl0b1Q5c3VsdmxIQlBuNjVPRGhRZmsrV0M2TXRrVTdVeERRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.22.3/Kage-mac.app.tar.gz"
     }
   }
 }
