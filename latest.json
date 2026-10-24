@@ -1,11 +1,11 @@
 {
-  "version": "0.24.0",
-  "notes": "Novidades:\n\n- o ícone da barra de menus mostra uma xícara quando o Kage mantém o Mac acordado\n- paisagens animadas do macOS e vídeos como papel de parede da camada\n\nCorreções:\n\n- \"Apagar a tela\" mostra o selo do Kage no preto e não deixa mais o véu preso\n- \"Procurar atualização\" mostra que está procurando\n- na atualização, a seta de download não gira mais",
-  "pub_date": "2026-10-24T17:16:04Z",
+  "version": "0.25.0",
+  "notes": "Novidades:\n\n- passar o mouse sobre um vídeo mostra um preview dele\n- vídeos e fotos na camada funcionam fora do Mac; o que é do macOS só aparece no Mac\n\nCorreções:\n\n- a capa dos vídeos sai de dentro do vídeo, não do primeiro quadro escuro",
+  "pub_date": "2026-10-24T18:49:39Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDdkSm9yVmV0NVF5YVJ3TzJSMkQ5azNFOTVKL0JGak5tWDVaRmIrUkd6NURtNDRJMXhBMXM1QmFRcytaZndYVDcwUXBtRzB1bmp4QmxqMUs5dDNOOWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODYyMTQ3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNC4wCnVYR3E2UVFESTdLZGZvTmlHdE5xNWV3TC9uSmpsaEt4Q1h1dFY2NVpNdVp5RjVSdDVLUVFTQUZFR1UvTWhVRkFMZC9YNWUxanYwSjhONGdPVEYzTUFnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.24.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDg5NWxlQmozK01OT1c5M1lsYXRVRGVuRmJJbCsyeHNlaTJOOTd3SlhpL09McFZTQU53MTQwYjQrR2Q3Z0k4RFJGUnlBU1ZDMXBYUnd5OTJpOTBWSEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY3NzYwCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNS4wCkdlK2hsU2l2RDdBZGNQOUd5cjk1Ym5iUDM0UDNycW1sbTFMT2hxRDlSYlk0ejJTOTlXMURZS3p6dHNnU1JpdEVmS0k5Z2o5dnNidDlYK2cxOE5ZcERnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.25.0/Kage-mac.app.tar.gz"
     }
   }
 }
