@@ -1,11 +1,11 @@
 {
-  "version": "0.23.1",
-  "notes": "Correções:\n\n- o macOS mostra o Sobre e os pedidos de permissão em português",
-  "pub_date": "2026-10-23T23:22:54Z",
+  "version": "0.24.0",
+  "notes": "Novidades:\n\n- o ícone da barra de menus mostra uma xícara quando o Kage mantém o Mac acordado\n- paisagens animadas do macOS e vídeos como papel de parede da camada\n\nCorreções:\n\n- \"Apagar a tela\" mostra o selo do Kage no preto e não deixa mais o véu preso\n- \"Procurar atualização\" mostra que está procurando\n- na atualização, a seta de download não gira mais",
+  "pub_date": "2026-10-24T17:16:04Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDdWY0ZJSFR3RVFmWnM5Uy8vQk0xVG1TMTZPNEQycGFJRE9zdmdtNDdsMjNqZFZreFZPVmt4SjNkMXdvSXhqN1p4bGlRUTYyS0Fiam1veXViaDh0eVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzk3NzU4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yMy4xCnRpSXdaTUxXejVHYUwxMHJERzNpMU52Q0RaT3JoK3Zlb0NvVDQvMmM1K2V1L3l1ZjNPV3luR2M5TEpwaitJN1JVRVdFWjEvVlNlU1NvZ0h3V2oyVER3PT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.23.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDdkSm9yVmV0NVF5YVJ3TzJSMkQ5azNFOTVKL0JGak5tWDVaRmIrUkd6NURtNDRJMXhBMXM1QmFRcytaZndYVDcwUXBtRzB1bmp4QmxqMUs5dDNOOWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODYyMTQ3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNC4wCnVYR3E2UVFESTdLZGZvTmlHdE5xNWV3TC9uSmpsaEt4Q1h1dFY2NVpNdVp5RjVSdDVLUVFTQUZFR1UvTWhVRkFMZC9YNWUxanYwSjhONGdPVEYzTUFnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.24.0/Kage-mac.app.tar.gz"
     }
   }
 }

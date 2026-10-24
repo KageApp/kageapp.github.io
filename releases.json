@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.24.0",
+    "date": "2026-10-24",
+    "notes": "Novidades:\n\n- o ícone da barra de menus mostra uma xícara quando o Kage mantém o Mac acordado\n- paisagens animadas do macOS e vídeos como papel de parede da camada\n\nCorreções:\n\n- \"Apagar a tela\" mostra o selo do Kage no preto e não deixa mais o véu preso\n- \"Procurar atualização\" mostra que está procurando\n- na atualização, a seta de download não gira mais",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.24.0/Kage-mac-0.24.0.dmg"
+  },
+  {
     "version": "0.23.1",
     "date": "2026-10-23",
     "notes": "Correções:\n\n- o macOS mostra o Sobre e os pedidos de permissão em português",
