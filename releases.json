@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.26.1",
+    "date": "2026-10-25",
+    "notes": "Correções:\n\n- o brilho não sobe mais logo depois que o macOS escurece a tela por ociosidade, e fotos da camada pesam menos\n- teclado e mouse compartilhados mais seguros: nada fica preso, e o computador controlado não toma os controles\n- telas novas mais claras e acessíveis, pela revisão de UX\n\nMais rápido:\n\n- camada \"Ao vivo\", relatório e eventos da tela gastam menos",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.1/Kage-mac-0.26.1.dmg"
+  },
+  {
     "version": "0.26.0",
     "date": "2026-10-25",
     "notes": "Novidades:\n\n- camada \"Ao vivo\", cenas desenhadas pela placa de vídeo\n- o Guia de cuidados corrige mais coisas e diz como foi\n- relatório mensal do monitor, com aviso quando o mês fecha\n- um sopro baixo ao apagar a tela por mão, se você quiser\n- um teclado e um mouse para todos os computadores do grupo\n\nCorreções:\n\n- \"Apagar a tela\" manda os monitores dormirem na hora; o véu fica de garantia\n- espaço entre os estilos e o conjunto, e miniatura de vídeo sem capa não deforma a linha\n- no seletor \"Do macOS\", tocar de novo numa foto ou paisagem tira ela do conjunto",

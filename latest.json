@@ -1,11 +1,11 @@
 {
-  "version": "0.26.0",
-  "notes": "Novidades:\n\n- camada \"Ao vivo\", cenas desenhadas pela placa de vídeo\n- o Guia de cuidados corrige mais coisas e diz como foi\n- relatório mensal do monitor, com aviso quando o mês fecha\n- um sopro baixo ao apagar a tela por mão, se você quiser\n- um teclado e um mouse para todos os computadores do grupo\n\nCorreções:\n\n- \"Apagar a tela\" manda os monitores dormirem na hora; o véu fica de garantia\n- espaço entre os estilos e o conjunto, e miniatura de vídeo sem capa não deforma a linha\n- no seletor \"Do macOS\", tocar de novo numa foto ou paisagem tira ela do conjunto",
-  "pub_date": "2026-10-25T02:45:57Z",
+  "version": "0.26.1",
+  "notes": "Correções:\n\n- o brilho não sobe mais logo depois que o macOS escurece a tela por ociosidade, e fotos da camada pesam menos\n- teclado e mouse compartilhados mais seguros: nada fica preso, e o computador controlado não toma os controles\n- telas novas mais claras e acessíveis, pela revisão de UX\n\nMais rápido:\n\n- camada \"Ao vivo\", relatório e eventos da tela gastam menos",
+  "pub_date": "2026-10-25T03:23:18Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDRxVEJlMFo4Uy9Ha1VXYWI3dFl5TmlJcVVzWGNmdzhLa25JTi9WZlhmbjlpWDA3ODZHOWtjZTdMREk1L1Bic3pzdDhBc0NqSzA5U1RQZ3hCOGdMM2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk2MzQwCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi4wCklIZnl6c2Q2Y2tKWXpuSFZoQWZjUU1yY0FrYmQrUkNDc1JiaE51S3VXWkVGRmQvTjBUbWRxeDlrcWwwcDNxQ3ZjVWxzdHh4MDZHc0JVdFdvUEdWekNRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHpmMENQYm9mUXVhUjJXVWc1ZS9qOXdkTGY3bkc2aFJZMitZTUlhRGdJOW9HNFV0K0p4c3RiZ3ZvNVIrUTkya052VUZadFNWTUs1TWtWVFVNNnRDcWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk4NTgwCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi4xCmE2VkU1bGovajZ6Y1ljaWlqYjdOcUIvWFUvZUdqZ0Flb1k2TEo1SDdYY05mdmVnUEpBakx2SVllcWNEdHAyei9LUHh3VEc5SkowaWtXVUFsOC9iTUN3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.1/Kage-mac.app.tar.gz"
     }
   }
 }
