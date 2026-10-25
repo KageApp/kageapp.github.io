@@ -1,11 +1,11 @@
 {
-  "version": "0.29.2",
-  "notes": "Correções:\n\n- atravessando pelo topo ou pela base da tela, o cursor de quem controla não aparece mais andando junto",
-  "pub_date": "2026-10-25T05:16:19Z",
+  "version": "0.29.3",
+  "notes": "Correções:\n\n- em Telas, \"Padrão para todas as telas\" e \"Sair do grupo\" deixam de ficar soltos",
+  "pub_date": "2026-10-25T05:21:09Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDZTRWQzSUJ5R2tMU21TVlNGWkVmb2UwSjJka1VZT3ZZMGowMEVmSWJWQmh6UkFUV040V2pZOFh2Znd5RzgyRWtqNTY3cDIzT1I0ZDlnTEQ2N3ZONXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA1MzYyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOS4yCmhtTWovSFFpOWRocEtNaUVLdDJCYUcrajFrbWtXWkYwanlDeHo1OHM1dUdEOTNJRkNXL21DRWtWT1VUeGozQkVkRjlZV3FCTitRZUxlT2dTOFpYM0RnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.2/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDdmb1ZnR3lTQ3c4TU96bFhmYVF4eUZ4S0srd3NMT2t2c0JNdGpKbm10TWgvUWJjKzFlakhwc01VSzZSeW5rcU5peng4TjYwRWVxNUVXMWVyeUZBbnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA1NjUxCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOS4zCmZpRDE4NEt5VmdTNjdaRS9CU0YyOWxhYTBFbmZoVS9xbjkzdkRhWUJZaURScmFqVHdFYUsvR1ozcFpJKzZjVEdicEY2N0hYMDlhRStDdHJaQVdxbkN3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.3/Kage-mac.app.tar.gz"
     }
   }
 }
