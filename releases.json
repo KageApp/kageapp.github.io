@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.26.5",
+    "date": "2026-10-25",
+    "notes": "Correções:\n\n- as permissões do macOS (Acessibilidade, Gravação de Tela) continuam valendo depois de atualizar o Kage",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.5/Kage-mac-0.26.5.dmg"
+  },
+  {
     "version": "0.26.4",
     "date": "2026-10-25",
     "notes": "Correções:\n\n- teclado e mouse compartilhados não travam mais os dois computadores, e o Kage guarda um registro",

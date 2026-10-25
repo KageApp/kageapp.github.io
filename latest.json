@@ -1,11 +1,11 @@
 {
-  "version": "0.26.4",
-  "notes": "Correções:\n\n- teclado e mouse compartilhados não travam mais os dois computadores, e o Kage guarda um registro",
-  "pub_date": "2026-10-25T04:07:28Z",
+  "version": "0.26.5",
+  "notes": "Correções:\n\n- as permissões do macOS (Acessibilidade, Gravação de Tela) continuam valendo depois de atualizar o Kage",
+  "pub_date": "2026-10-25T04:16:41Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCt2U2h4Y3dKaUJaa3FmV3ZGTFJpTmwyU3llcWRHZWNSTHppcDFhc3ZocU9jM0JpcjBPYURndlBiT1VkUkhYckk4MlBsd0FNeFZYVTVVMHlxSy9yR3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAxMjI3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi40ClNkR2NsNk1aTkdLM2lObnZMQ1hzaHp1RjNSbkVub1hrVC9XK3kwbFB5UVRrWjlqOWpCMUVlREwxaWxNajg0QTVKa0s0OU1VTTgzaC9wZHRKTm1kNkRBPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.4/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDduQlBHUEpiZkxManppOExiSVR0NDdsN3J5OWpJZUt1bklqTnFzM2hTYWJvL05QT2JUdUdnNXNBNUxPN1NoemRYSTdQY3VmZGxXa0I1YzByQ3phM1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAxNzgzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi41Ckp4eXZ0dnlORW91NklYb3B6amJ5UUVXNWpiaXhpdVdnMUpqd2oza0FneG5wRjJyMzladUVNcGhtTy8wWTlVVWo5U0dIMGJjZXQwN0VJeDJoS2NLUER3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.5/Kage-mac.app.tar.gz"
     }
   }
 }
