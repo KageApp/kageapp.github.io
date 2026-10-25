@@ -1,11 +1,11 @@
 {
-  "version": "0.29.1",
-  "notes": "Correções:\n\n- arrastar no app não seleciona mais texto, o que atrapalhava organizar as telas no mapa\n- no mapa do Watari, o nome do computador diminui para caber na tela dele",
-  "pub_date": "2026-10-25T05:08:42Z",
+  "version": "0.29.2",
+  "notes": "Correções:\n\n- atravessando pelo topo ou pela base da tela, o cursor de quem controla não aparece mais andando junto",
+  "pub_date": "2026-10-25T05:16:19Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDdUendFZzkvMldoTlkvbFN4Vmt1WTRiVVQ0OHUzV1dEUjNrK1Rid2hnK0JIL3RXUE8wVjRvb2x5YVo1TGhrNVhHZFIwN1RtSCttOFNTMzVvQTdaRkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA0OTA1CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOS4xCmpBaElha2ZhVWFiUkNSeHhVN1E2bGd4V0I2Um5NdDF6TlM3a1JpVGdwYktGanZvMTU4enY0TkZDRzg5MllrN0RuaVFoZEpSZ3pVY1Y3MnM1ZHNIbUJnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDZTRWQzSUJ5R2tMU21TVlNGWkVmb2UwSjJka1VZT3ZZMGowMEVmSWJWQmh6UkFUV040V2pZOFh2Znd5RzgyRWtqNTY3cDIzT1I0ZDlnTEQ2N3ZONXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA1MzYyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOS4yCmhtTWovSFFpOWRocEtNaUVLdDJCYUcrajFrbWtXWkYwanlDeHo1OHM1dUdEOTNJRkNXL21DRWtWT1VUeGozQkVkRjlZV3FCTitRZUxlT2dTOFpYM0RnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.2/Kage-mac.app.tar.gz"
     }
   }
 }
