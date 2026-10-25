@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.28.1",
+    "date": "2026-10-25",
+    "notes": "Correções:\n\n- a gota do Watari aparece também em Macs sem Liquid Glass",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.28.1/Kage-mac-0.28.1.dmg"
+  },
+  {
     "version": "0.28.0",
     "date": "2026-10-25",
     "notes": "Novidades:\n\n- Watari atravessa a borda com um empurrão, e uma gota de Liquid Glass mostra o caminho",
