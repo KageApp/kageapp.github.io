@@ -1,11 +1,11 @@
 {
-  "version": "0.26.1",
-  "notes": "Correções:\n\n- o brilho não sobe mais logo depois que o macOS escurece a tela por ociosidade, e fotos da camada pesam menos\n- teclado e mouse compartilhados mais seguros: nada fica preso, e o computador controlado não toma os controles\n- telas novas mais claras e acessíveis, pela revisão de UX\n\nMais rápido:\n\n- camada \"Ao vivo\", relatório e eventos da tela gastam menos",
-  "pub_date": "2026-10-25T03:23:18Z",
+  "version": "0.26.2",
+  "notes": "Correções:\n\n- desligar a camada num monitor tira mesmo a camada, e ela vem desligada de fábrica\n- no mapa das telas, elas encaixam ao aproximar e nunca ficam uma sobre a outra\n- um computador que entra no grupo adota os ajustes do grupo, em vez de espalhar os de fábrica",
+  "pub_date": "2026-10-25T03:54:31Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHpmMENQYm9mUXVhUjJXVWc1ZS9qOXdkTGY3bkc2aFJZMitZTUlhRGdJOW9HNFV0K0p4c3RiZ3ZvNVIrUTkya052VUZadFNWTUs1TWtWVFVNNnRDcWd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk4NTgwCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi4xCmE2VkU1bGovajZ6Y1ljaWlqYjdOcUIvWFUvZUdqZ0Flb1k2TEo1SDdYY05mdmVnUEpBakx2SVllcWNEdHAyei9LUHh3VEc5SkowaWtXVUFsOC9iTUN3PT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDhMa0EvZXlPdUYyTmFJaVJmSkpSVGptSVJEckhSdG1jRUZvQ3pwQ0k5SGRSallXOFluOHRMdVRPU2NXbkkzTnRDeFcxaWM3UE9QNkhDRE5QNFNXSWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAwNDUzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi4yCnYwMkFIZzhHdXRuYTZDMytpRDROaTBTQVFrSW5NWlRMdnNHWGVYUWJMSVI3eVdWVUdHVE9Gb1paY3Q3ZTkzaFIxNEtFREdQTkY2V1ExN0VMVUxBOUF3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.2/Kage-mac.app.tar.gz"
     }
   }
 }
