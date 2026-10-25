@@ -1,11 +1,11 @@
 {
-  "version": "0.30.2",
-  "notes": "Correções:\n\n- o app não fica mais surdo depois de atravessar muito com o Watari, e a 0.30 aparece como mais nova que a 0.29",
-  "pub_date": "2026-10-25T05:45:40Z",
+  "version": "0.30.3",
+  "notes": "Correções:\n\n- atravessando na vertical, o cursor de quem controla fica escondido e o Dock continua funcionando",
+  "pub_date": "2026-10-25T06:12:43Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCs1UFZvMjZXUHJQSC81RXZYS284eWRsMmVkQVJtMzluK0xNbVA0TUI4VWVFWTRMK21QczVzaGRZQTBUZ0k4NUdWNlc5b3BXWUtRRUNlcHdlOVFLZmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA3MTIzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMC4yCncwWWZMVjY0ZWl2SVU0SXBhaXpKblp0SWoxZkE4Q21Lbk9KYlRGd3BkZDJ4cXpkaG1yUDdUdHdoc3FUZ1d1dWQ1b1dxV2NZKzVGZkV3bVoxdzFNbkRnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.30.2/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHlBQWl2eG9ON0NOQ2tkYy80NFdWTzl4T24rMHdqbkZXZDhtQ2RVVGxTN0JjblhSVmd5UEdYUHNKeUhSbEVIaWJhMzVFZHZWLzRlNWZRYzFmT2o4b2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA4NzQ2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMC4zCnZrRnEyWVlwME9KMXc2Zmp2SXFVbS9JRTA4RmVzZndNZG5MaHpZVUY2YkxXbXE3aFA1djB6Z1ZmZWtQOEpPTDZ2c0lWVjAwQ0tUQ2FPNnA5U2srRENRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.30.3/Kage-mac.app.tar.gz"
     }
   }
 }
