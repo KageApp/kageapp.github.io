@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.30.1",
+    "date": "2026-10-25",
+    "notes": "Correções:\n\n- o cursor volta a atravessar para o outro computador (desfaz a mudança da 0.29.4)",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.30.1/Kage-mac-0.30.1.dmg"
+  },
+  {
     "version": "0.30.0",
     "date": "2026-10-25",
     "notes": "Novidades:\n\n- relatório dentro da página de cada monitor, e o mapa do Watari diz qual monitor é cada tela",
