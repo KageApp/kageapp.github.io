@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.26.3",
+    "date": "2026-10-25",
+    "notes": "Correções:\n\n- ao passar o mouse para outro computador, o cursor some em vez de aparecer do outro lado da tela",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.3/Kage-mac-0.26.3.dmg"
+  },
+  {
     "version": "0.26.2",
     "date": "2026-10-25",
     "notes": "Correções:\n\n- desligar a camada num monitor tira mesmo a camada, e ela vem desligada de fábrica\n- no mapa das telas, elas encaixam ao aproximar e nunca ficam uma sobre a outra\n- um computador que entra no grupo adota os ajustes do grupo, em vez de espalhar os de fábrica",
