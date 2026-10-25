@@ -1,11 +1,11 @@
 {
-  "version": "0.28.1",
-  "notes": "Correções:\n\n- a gota do Watari aparece também em Macs sem Liquid Glass",
-  "pub_date": "2026-10-25T04:54:40Z",
+  "version": "0.29.0",
+  "notes": "Novidades:\n\n- a gota do Watari aparece antes de encostar e acompanha a altura do mouse\n\nCorreções:\n\n- o texto embaixo dos botões de escolha (como a tecla do Watari) ganha espaço para respirar",
+  "pub_date": "2026-10-25T05:01:53Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHltcEF1Q0FQWVFCZkg0dXVBTXkyc2R5U0RvZ1E2Wk91ZHNrcHc5Qm1KeVVxZXpWUHVBM0ZIdjV5WTRVZmFCenpGd0g0dkMzTFg4UG95eC91V3ZZWlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA0MDYzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOC4xCnB2QW1MalU1UFJmSW1QdWFpL3E5cjN1Ny9GMGd1Y2dQSnd3bEhuVDBKRis4TnZCMFBHYzdKcUd1MmM1UVpmOFZxTDhEWmJiS2V3YXdlaW01SHAwdEFBPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.28.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDZWUWJVT1NqLzJKWVh6YzRuSXVoaGU4c3lnK2VHS0swMFF3VERrREJEZzR4WEEvVkcwWmNpUWhod2JrbkZOcEp1T0hzRVRRZisxbWtIcHlpQ1pCdGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA0NDk5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOS4wClNVbzl2R2hiLzhxYmsxVE1lY01yWVdtRER1RFhweEJsdm0weTRhdGZWODYveVJSQUVISEFIeDBYbFU0bTdiTkhZTVJqYXg2K3UzRWsvaDVLZFUwSURnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.0/Kage-mac.app.tar.gz"
     }
   }
 }
