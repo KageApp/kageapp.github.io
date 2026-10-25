@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.29.1",
+    "date": "2026-10-25",
+    "notes": "Correções:\n\n- arrastar no app não seleciona mais texto, o que atrapalhava organizar as telas no mapa\n- no mapa do Watari, o nome do computador diminui para caber na tela dele",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.1/Kage-mac-0.29.1.dmg"
+  },
+  {
     "version": "0.29.0",
     "date": "2026-10-25",
     "notes": "Novidades:\n\n- a gota do Watari aparece antes de encostar e acompanha a altura do mouse\n\nCorreções:\n\n- o texto embaixo dos botões de escolha (como a tecla do Watari) ganha espaço para respirar",

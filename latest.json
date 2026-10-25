@@ -1,11 +1,11 @@
 {
-  "version": "0.29.0",
-  "notes": "Novidades:\n\n- a gota do Watari aparece antes de encostar e acompanha a altura do mouse\n\nCorreções:\n\n- o texto embaixo dos botões de escolha (como a tecla do Watari) ganha espaço para respirar",
-  "pub_date": "2026-10-25T05:01:53Z",
+  "version": "0.29.1",
+  "notes": "Correções:\n\n- arrastar no app não seleciona mais texto, o que atrapalhava organizar as telas no mapa\n- no mapa do Watari, o nome do computador diminui para caber na tela dele",
+  "pub_date": "2026-10-25T05:08:42Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDZWUWJVT1NqLzJKWVh6YzRuSXVoaGU4c3lnK2VHS0swMFF3VERrREJEZzR4WEEvVkcwWmNpUWhod2JrbkZOcEp1T0hzRVRRZisxbWtIcHlpQ1pCdGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA0NDk5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOS4wClNVbzl2R2hiLzhxYmsxVE1lY01yWVdtRER1RFhweEJsdm0weTRhdGZWODYveVJSQUVISEFIeDBYbFU0bTdiTkhZTVJqYXg2K3UzRWsvaDVLZFUwSURnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDdUendFZzkvMldoTlkvbFN4Vmt1WTRiVVQ0OHUzV1dEUjNrK1Rid2hnK0JIL3RXUE8wVjRvb2x5YVo1TGhrNVhHZFIwN1RtSCttOFNTMzVvQTdaRkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA0OTA1CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOS4xCmpBaElha2ZhVWFiUkNSeHhVN1E2bGd4V0I2Um5NdDF6TlM3a1JpVGdwYktGanZvMTU4enY0TkZDRzg5MllrN0RuaVFoZEpSZ3pVY1Y3MnM1ZHNIbUJnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.1/Kage-mac.app.tar.gz"
     }
   }
 }
