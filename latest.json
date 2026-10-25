@@ -1,11 +1,11 @@
 {
-  "version": "0.25.0",
-  "notes": "Novidades:\n\n- passar o mouse sobre um vídeo mostra um preview dele\n- vídeos e fotos na camada funcionam fora do Mac; o que é do macOS só aparece no Mac\n\nCorreções:\n\n- a capa dos vídeos sai de dentro do vídeo, não do primeiro quadro escuro",
-  "pub_date": "2026-10-24T18:49:39Z",
+  "version": "0.26.0",
+  "notes": "Novidades:\n\n- camada \"Ao vivo\", cenas desenhadas pela placa de vídeo\n- o Guia de cuidados corrige mais coisas e diz como foi\n- relatório mensal do monitor, com aviso quando o mês fecha\n- um sopro baixo ao apagar a tela por mão, se você quiser\n- um teclado e um mouse para todos os computadores do grupo\n\nCorreções:\n\n- \"Apagar a tela\" manda os monitores dormirem na hora; o véu fica de garantia\n- espaço entre os estilos e o conjunto, e miniatura de vídeo sem capa não deforma a linha\n- no seletor \"Do macOS\", tocar de novo numa foto ou paisagem tira ela do conjunto",
+  "pub_date": "2026-10-25T02:45:57Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDg5NWxlQmozK01OT1c5M1lsYXRVRGVuRmJJbCsyeHNlaTJOOTd3SlhpL09McFZTQU53MTQwYjQrR2Q3Z0k4RFJGUnlBU1ZDMXBYUnd5OTJpOTBWSEFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY3NzYwCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNS4wCkdlK2hsU2l2RDdBZGNQOUd5cjk1Ym5iUDM0UDNycW1sbTFMT2hxRDlSYlk0ejJTOTlXMURZS3p6dHNnU1JpdEVmS0k5Z2o5dnNidDlYK2cxOE5ZcERnPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.25.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDRxVEJlMFo4Uy9Ha1VXYWI3dFl5TmlJcVVzWGNmdzhLa25JTi9WZlhmbjlpWDA3ODZHOWtjZTdMREk1L1Bic3pzdDhBc0NqSzA5U1RQZ3hCOGdMM2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk2MzQwCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi4wCklIZnl6c2Q2Y2tKWXpuSFZoQWZjUU1yY0FrYmQrUkNDc1JiaE51S3VXWkVGRmQvTjBUbWRxeDlrcWwwcDNxQ3ZjVWxzdHh4MDZHc0JVdFdvUEdWekNRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.0/Kage-mac.app.tar.gz"
     }
   }
 }
