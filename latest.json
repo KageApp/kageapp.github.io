@@ -1,11 +1,11 @@
 {
-  "version": "0.26.3",
-  "notes": "Correções:\n\n- ao passar o mouse para outro computador, o cursor some em vez de aparecer do outro lado da tela",
-  "pub_date": "2026-10-25T04:03:03Z",
+  "version": "0.26.4",
+  "notes": "Correções:\n\n- teclado e mouse compartilhados não travam mais os dois computadores, e o Kage guarda um registro",
+  "pub_date": "2026-10-25T04:07:28Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDRQVzVkU3Z2a0NaR2Z5NE9YcndVUVF6NHZzZ2JMajRYSVRCQ3UrQnV2d1FXSVo3ZFBjMXNhczdwVjI4MTJsQzEzaGhLT1FJS1dHNG9BS0pmbmhzUUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAwOTY1CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi4zCk1zODR6ZVBIdmQxeXFQbUVVODByS2F6WjZNck9hdEhDQ2JGVlE5UGpLSWhZelI1KytMd2Nlc1dpOU9vb2ZYUWxJazR4aWlGUWZ1RE83WUxKYk1zOERBPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.3/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCt2U2h4Y3dKaUJaa3FmV3ZGTFJpTmwyU3llcWRHZWNSTHppcDFhc3ZocU9jM0JpcjBPYURndlBiT1VkUkhYckk4MlBsd0FNeFZYVTVVMHlxSy9yR3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAxMjI3CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi40ClNkR2NsNk1aTkdLM2lObnZMQ1hzaHp1RjNSbkVub1hrVC9XK3kwbFB5UVRrWjlqOWpCMUVlREwxaWxNajg0QTVKa0s0OU1VTTgzaC9wZHRKTm1kNkRBPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.4/Kage-mac.app.tar.gz"
     }
   }
 }

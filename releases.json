@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.26.4",
+    "date": "2026-10-25",
+    "notes": "Correções:\n\n- teclado e mouse compartilhados não travam mais os dois computadores, e o Kage guarda um registro",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.4/Kage-mac-0.26.4.dmg"
+  },
+  {
     "version": "0.26.3",
     "date": "2026-10-25",
     "notes": "Correções:\n\n- ao passar o mouse para outro computador, o cursor some em vez de aparecer do outro lado da tela",
