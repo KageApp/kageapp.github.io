@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.27.1",
+    "date": "2026-10-25",
+    "notes": "Correções:\n\n- o AORUS não pisca mais escuro a cada 30 segundos",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.27.1/Kage-mac-0.27.1.dmg"
+  },
+  {
     "version": "0.27.0",
     "date": "2026-10-25",
     "notes": "Novidades:\n\n- Watari 渡り, o teclado e o mouse compartilhados ganham nome, aba própria e lugar na barra de menus",

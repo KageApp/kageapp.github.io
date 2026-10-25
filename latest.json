@@ -1,11 +1,11 @@
 {
-  "version": "0.27.0",
-  "notes": "Novidades:\n\n- Watari 渡り, o teclado e o mouse compartilhados ganham nome, aba própria e lugar na barra de menus",
-  "pub_date": "2026-10-25T04:34:45Z",
+  "version": "0.27.1",
+  "notes": "Correções:\n\n- o AORUS não pisca mais escuro a cada 30 segundos",
+  "pub_date": "2026-10-25T04:38:58Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDNnbS9hbzFSZzRlVlJCUVFaK0lPSjNPeGxacUxSTmVudnhYbTdJeFBoNXRVdDVuTHYyVFVlOG1kelNtTFIvQ3BmQW81NWRha1QzOUhScTc2dHdJaXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAyODY5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNy4wClA0cXpxUkVYQWNGWkNtNlg4VDdLcjJOYkVDUkZvZkk2Y3B5dk12WmNUaXJQZHRiczQ5Y1RVWnB0bkMwZ0l3d2cvQ0h5SUVaZGZySTlvb0NUZ2ZPM0F3PT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.27.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDNhQi83VFQ2am0yc2JyaHFSYi9GODVIdW0vTEM5RDFMSDNXT3ZBQ1VtbGhFNjlER0NGdFlMSVVqMC95SjJUYzh5eU5sTHppUTRteElyOExNTHFvSmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAzMTIxCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNy4xCk0yTmtrTlloaE9JRUV4bkJLRFlIRVlSVEhBbjMyUEZRODVKZm9YLy9xaTdzSU55TVllU003SWNnVkZkQlkvOEx0d1NGNjJHNkxobS9JdlZ0djB2RERBPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.27.1/Kage-mac.app.tar.gz"
     }
   }
 }
