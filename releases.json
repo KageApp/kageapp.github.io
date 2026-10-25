@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.29.4",
+    "date": "2026-10-25",
+    "notes": "Correções:\n\n- atravessando na vertical, o cursor de quem controla fica parado e escondido de verdade",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.4/Kage-mac-0.29.4.dmg"
+  },
+  {
     "version": "0.29.3",
     "date": "2026-10-25",
     "notes": "Correções:\n\n- em Telas, \"Padrão para todas as telas\" e \"Sair do grupo\" deixam de ficar soltos",

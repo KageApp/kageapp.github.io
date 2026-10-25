@@ -1,11 +1,11 @@
 {
-  "version": "0.29.3",
-  "notes": "Correções:\n\n- em Telas, \"Padrão para todas as telas\" e \"Sair do grupo\" deixam de ficar soltos",
-  "pub_date": "2026-10-25T05:21:09Z",
+  "version": "0.29.4",
+  "notes": "Correções:\n\n- atravessando na vertical, o cursor de quem controla fica parado e escondido de verdade",
+  "pub_date": "2026-10-25T05:30:52Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDdmb1ZnR3lTQ3c4TU96bFhmYVF4eUZ4S0srd3NMT2t2c0JNdGpKbm10TWgvUWJjKzFlakhwc01VSzZSeW5rcU5peng4TjYwRWVxNUVXMWVyeUZBbnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA1NjUxCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOS4zCmZpRDE4NEt5VmdTNjdaRS9CU0YyOWxhYTBFbmZoVS9xbjkzdkRhWUJZaURScmFqVHdFYUsvR1ozcFpJKzZjVEdicEY2N0hYMDlhRStDdHJaQVdxbkN3PT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.3/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHkzb2xweUMwdG1NWGl1SysxZEdXamVNOUZEc1dFSlJjVGJRNzFYMlNZNGJRenNmYjM0Z085eFh2RXhHVGNhVUM4Vmk0a3djQlBrR3pTbmd5WnovQUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA2MjM0CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yOS40CjBpMWZjNjZWVjNrWTF6SThVbDlQSGRkNUVRNnBkU3lSSnp1UytyUUlzMUxxY1RTVWVpRytweWxnQW1JZjRZOHN5cXRlTGJIUEFCZ0NjS2xCdXNLOUNnPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.29.4/Kage-mac.app.tar.gz"
     }
   }
 }
