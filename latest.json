@@ -1,11 +1,11 @@
 {
-  "version": "0.26.5",
-  "notes": "Correções:\n\n- as permissões do macOS (Acessibilidade, Gravação de Tela) continuam valendo depois de atualizar o Kage",
-  "pub_date": "2026-10-25T04:16:41Z",
+  "version": "0.27.0",
+  "notes": "Novidades:\n\n- Watari 渡り, o teclado e o mouse compartilhados ganham nome, aba própria e lugar na barra de menus",
+  "pub_date": "2026-10-25T04:34:45Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDduQlBHUEpiZkxManppOExiSVR0NDdsN3J5OWpJZUt1bklqTnFzM2hTYWJvL05QT2JUdUdnNXNBNUxPN1NoemRYSTdQY3VmZGxXa0I1YzByQ3phM1E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAxNzgzCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNi41Ckp4eXZ0dnlORW91NklYb3B6amJ5UUVXNWpiaXhpdVdnMUpqd2oza0FneG5wRjJyMzladUVNcGhtTy8wWTlVVWo5U0dIMGJjZXQwN0VJeDJoS2NLUER3PT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.26.5/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDNnbS9hbzFSZzRlVlJCUVFaK0lPSjNPeGxacUxSTmVudnhYbTdJeFBoNXRVdDVuTHYyVFVlOG1kelNtTFIvQ3BmQW81NWRha1QzOUhScTc2dHdJaXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTAyODY5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4yNy4wClA0cXpxUkVYQWNGWkNtNlg4VDdLcjJOYkVDUkZvZkk2Y3B5dk12WmNUaXJQZHRiczQ5Y1RVWnB0bkMwZ0l3d2cvQ0h5SUVaZGZySTlvb0NUZ2ZPM0F3PT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.27.0/Kage-mac.app.tar.gz"
     }
   }
 }
