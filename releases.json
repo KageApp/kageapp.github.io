@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.31.1",
+    "date": "2026-10-26",
+    "notes": "Correções:\n\n- o ícone do Kage é o mesmo em todo lugar: app, instalador, site e README",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.31.1/Kage-mac-0.31.1.dmg"
+  },
+  {
     "version": "0.31.0",
     "date": "2026-10-26",
     "notes": "Novidades:\n\n- o mesmo monitor em dois computadores só aparece duas vezes no mapa do Watari se você ligar",

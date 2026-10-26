@@ -1,11 +1,11 @@
 {
-  "version": "0.31.0",
-  "notes": "Novidades:\n\n- o mesmo monitor em dois computadores só aparece duas vezes no mapa do Watari se você ligar",
-  "pub_date": "2026-10-26T13:33:52Z",
+  "version": "0.31.1",
+  "notes": "Correções:\n\n- o ícone do Kage é o mesmo em todo lugar: app, instalador, site e README",
+  "pub_date": "2026-10-26T14:09:58Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHhtSVJ6dEJ4K2Q4aUp3WnEzT2tWUGVaeUUybDRmZ1VpcDNDU2NPZ2JMSUNVZjFXdU0rWFVaVEZ6dEVJaVdzMUhlMFc5TDEyYm1DVWk3WHlaUnVwVHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDIxNjE2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMS4wCnIwcGVDV3BlVmNSZ0JhUnc3YVBOTHh3OWF3ZTlkcWZkRXhKQTJCeERkM2g4cnBOR2xYRFgveHdmRk9hdk5DZXU4K2lYN1lDMithZDhYci9wYmE1bkFRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.31.0/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHlQZmpZaEVpNDMvNFRtR3ZvN0t4ZnhIS28xR0s3L2NUKy95OUp0ZW9YQXZQVFgzS21iODh0WkhyakNzNXUxS2lUN3lic053ZUJ0d055dlVBZEtUbnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDIzNzc5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMS4xCjdGcEFsbVNLczdxYTcvUnJ1S2RRRkNaSUxaVS9jdmtkazR4WDVhcFAvTHgzZzdnSlcxZHJXZ0pJVms4ZVEzd09YUGRxNCttZDFGdWpOeEhnNnlHYURBPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.31.1/Kage-mac.app.tar.gz"
     }
   }
 }
