@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.32.2",
+    "date": "2026-10-26",
+    "notes": "Correções:\n\n- o Kage instalado passa a mandar os erros ao projeto kage do GlitchTip",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.2/Kage-mac-0.32.2.dmg"
+  },
+  {
     "version": "0.32.1",
     "date": "2026-10-26",
     "notes": "Correções:\n\n- o chip de manter o Mac acordado fica sempre no topo e diz o estado",

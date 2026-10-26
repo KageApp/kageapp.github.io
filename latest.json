@@ -1,11 +1,11 @@
 {
-  "version": "0.32.1",
-  "notes": "Correções:\n\n- o chip de manter o Mac acordado fica sempre no topo e diz o estado",
-  "pub_date": "2026-10-26T15:58:02Z",
+  "version": "0.32.2",
+  "notes": "Correções:\n\n- o Kage instalado passa a mandar os erros ao projeto kage do GlitchTip",
+  "pub_date": "2026-10-26T16:15:28Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRCtqd1lDWWN3RnNodVErMVpBZ1dSV01jd0lPSEdveUNIS2FjTStEcnFlZXZyaGs2R3Q5VHpUZXBHMjhEWDdUdXdEQjh2Y08vb1d2b2JRZXh0R21Db3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDMwMjY2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMi4xCmR3QmdpV0V4M1ZlVGNzdW44S2pJaVZxdm91Z3I4bDF3RkFGam5nd2J5NlJDQWhwMHhjRHEzR3dSdkZZSWd4TXlmdjRzRDdUakl6V09uMUlFckVQMENBPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.1/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDF6cTBNeGZlYTRkVnJnVGErQlN4c2ErakFNRG5wdEtwZ1JpaW53WGZHRGw1RVFQRFU0R3ppSTNLMGxoTVh2Zng0aVVrZUVMeWpvejRXZzc5bDBUNmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDMxMzEyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMi4yCmJVdnlmU0E2U0J2ZGNMOGNDNFpFZjI5UERvOHBsN212VnhwdDNxcjlCbE1RK2hqaWJDSk5Sb0U3anE4a0JlQ2w3WHEreW9mSGZhYXZtV1FqeFJBcERRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.2/Kage-mac.app.tar.gz"
     }
   }
 }
