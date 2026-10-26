@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.32.0",
+    "date": "2026-10-26",
+    "notes": "Novidades:\n\n- o Kage instalado manda os erros ao GlitchTip, do hub e da janela, com o que é pessoal mascarado",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.0/Kage-mac-0.32.0.dmg"
+  },
+  {
     "version": "0.31.3",
     "date": "2026-10-26",
     "notes": "Correções:\n\n- monitor que não é OLED não escurece nem apaga sozinho, e o Kage sugere ligar",
