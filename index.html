@@ -6,6 +6,10 @@
   <title>Kage · cuida do seu monitor OLED</title>
   <meta name="description" content="Kage cuida do seu monitor OLED no Mac: cobre o papel de parede, escurece e apaga quando ninguém está olhando, acerta o brilho pelo cabo e soma as horas do painel entre vários computadores." />
   <link rel="icon" href="icon.png" />
+  <link rel="apple-touch-icon" href="icon-512.png" />
+  <meta property="og:title" content="Kage · cuida do seu monitor OLED" />
+  <meta property="og:description" content="Cobre o papel de parede, escurece e apaga quando ninguém está olhando, e um teclado e um mouse para todos os computadores." />
+  <meta property="og:image" content="https://kageapp.github.io/icon-512.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -32,7 +36,7 @@
     header.top { position: sticky; top: 0; z-index: 20; backdrop-filter: blur(16px) saturate(140%); background: rgba(0,0,0,.55); border-bottom: 1px solid var(--rule); }
     header.top .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
     .logo { display: flex; align-items: center; gap: 10px; font-weight: 600; color: var(--ink); text-decoration: none; }
-    .logo b { color: var(--accent); font-size: 22px; font-weight: 500; }
+    .logo img { width: 30px; height: 30px; display: block; }
     nav.links { display: flex; gap: 22px; }
     nav.links a { color: var(--muted); text-decoration: none; font-size: 15px; transition: color .2s; }
     nav.links a:hover { color: var(--ink); }
@@ -50,7 +54,9 @@
     .hero { min-height: calc(100svh - 60px); display: grid; align-items: center; padding: 48px 0 64px; }
     .hero-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 48px; align-items: center; }
     @media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } }
-    .kanji { font-size: 56px; color: var(--accent); line-height: 1; }
+    /* The app icon itself, the same one in the Dock and the installer. */
+    .app-icon { width: 88px; height: 88px; display: block; margin-left: -8px; }
+    .download .app-icon { margin: 0 auto; }
     h1 { font-size: clamp(38px, 6vw, 64px); line-height: 1.04; letter-spacing: -.025em; margin: 18px 0 16px; font-weight: 700; }
     h1 em { font-style: normal; color: var(--accent); }
     .lead { font-size: 19px; color: var(--muted); max-width: 540px; margin: 0; }
@@ -174,7 +180,7 @@
 
   <header class="top">
     <div class="wrap">
-      <a class="logo" href="#"><b>影</b> Kage</a>
+      <a class="logo" href="#"><img src="icon.png" alt="" /> Kage</a>
       <nav class="links" aria-label="Seções">
         <a href="#camada">Camada</a><a href="#parado">Parado</a><a href="#brilho">Brilho</a><a href="#telas">Telas</a><a href="#watari">Watari</a><a href="#baixar">Baixar</a>
       </nav>
@@ -186,7 +192,7 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div>
-          <div class="kanji" aria-hidden="true">影</div>
+          <img class="app-icon" src="icon-512.png" alt="" />
           <h1>Seu OLED, <em>sem marcas</em>.</h1>
           <p class="lead">O Kage cuida do monitor por você: cobre o que fica parado, escurece e apaga quando ninguém está olhando, acerta o brilho pelo próprio cabo e soma as horas do painel entre todos os computadores ligados nele.</p>
           <div class="cta">
@@ -382,7 +388,7 @@
 
     <section class="chapter download" id="baixar">
       <div class="wrap">
-        <div class="kanji reveal" aria-hidden="true">影</div>
+        <img class="app-icon reveal" src="icon-512.png" alt="" />
         <h2 class="reveal">Pronto para cuidar do seu OLED?</h2>
         <p class="lead reveal" style="margin: 0 auto">Grátis, para Macs com Apple Silicon e macOS 13 ou mais novo.</p>
         <a class="btn primary reveal" id="dmg2" href="https://github.com/KageApp/kageapp.github.io/releases/latest/download/Kage-mac.dmg">Baixar para Mac</a>
