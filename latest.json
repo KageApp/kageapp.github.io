@@ -1,11 +1,11 @@
 {
-  "version": "0.32.3",
-  "notes": "Mais rápido:\n\n- a janela só carrega o envio de erros quando ele está ligado",
-  "pub_date": "2026-10-26T16:22:04Z",
+  "version": "0.32.4",
+  "notes": "Correções:\n\n- a conversa entre os computadores do grupo passa a ir cifrada",
+  "pub_date": "2026-10-26T17:09:04Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDhqdTBSOXdiSk5FMkswRjBJSGVOMHRUZEhvMWcvczJtOXJzTTM0QnZJdXZFUTNOY3cybkNTeEJjaUlBMnJJYXFTWVc4a3NqclJFSThRcVRlR1BZU2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDMxNjk5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMi4zCmozMXZuMUoybGZiVW1ZbzZOaFk5M1o5RWZmSlcwVmVDR3F5Y2pwODNZTHd1WE51a2l6cThhY1JacE5hSW5oRDg5VnBRUFVpWThqOTRUQkM0Sm1nbkJBPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.3/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDRKUGh3Q1hrcmxjK2hlQlMzWDdpRjFPUTByZXpteVRwTTZqZmxXU0hhcEgzTVZHbnJKWVlTenBFVjFwNE5UZExCTXMvbTA4NElhWXVReHUxMENHUWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDM0NTI4CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMi40CmlKeVd1NlZYZmk2eUlwcXdtL0xnUTBrQnBJbWx0UFdzMEV4SE4zMGRnei83R2ZBQmpaSXJ1M0ZDRHFiNUdiK08yOCs4Smc5S1dVN1I4akFEV1d6NkRBPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.4/Kage-mac.app.tar.gz"
     }
   }
 }

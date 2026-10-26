@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.32.4",
+    "date": "2026-10-26",
+    "notes": "Correções:\n\n- a conversa entre os computadores do grupo passa a ir cifrada",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.4/Kage-mac-0.32.4.dmg"
+  },
+  {
     "version": "0.32.3",
     "date": "2026-10-26",
     "notes": "Mais rápido:\n\n- a janela só carrega o envio de erros quando ele está ligado",
