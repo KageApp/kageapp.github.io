@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.31.3",
+    "date": "2026-10-26",
+    "notes": "Correções:\n\n- monitor que não é OLED não escurece nem apaga sozinho, e o Kage sugere ligar",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.31.3/Kage-mac-0.31.3.dmg"
+  },
+  {
     "version": "0.31.1",
     "date": "2026-10-26",
     "notes": "Correções:\n\n- o ícone do Kage é o mesmo em todo lugar: app, instalador, site e README",
