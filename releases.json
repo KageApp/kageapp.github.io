@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.31.0",
+    "date": "2026-10-26",
+    "notes": "Novidades:\n\n- o mesmo monitor em dois computadores só aparece duas vezes no mapa do Watari se você ligar",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.31.0/Kage-mac-0.31.0.dmg"
+  },
+  {
     "version": "0.30.3",
     "date": "2026-10-25",
     "notes": "Correções:\n\n- atravessando na vertical, o cursor de quem controla fica escondido e o Dock continua funcionando",

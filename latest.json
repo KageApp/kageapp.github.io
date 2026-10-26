@@ -1,11 +1,11 @@
 {
-  "version": "0.30.3",
-  "notes": "Correções:\n\n- atravessando na vertical, o cursor de quem controla fica escondido e o Dock continua funcionando",
-  "pub_date": "2026-10-25T06:12:43Z",
+  "version": "0.31.0",
+  "notes": "Novidades:\n\n- o mesmo monitor em dois computadores só aparece duas vezes no mapa do Watari se você ligar",
+  "pub_date": "2026-10-26T13:33:52Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHlBQWl2eG9ON0NOQ2tkYy80NFdWTzl4T24rMHdqbkZXZDhtQ2RVVGxTN0JjblhSVmd5UEdYUHNKeUhSbEVIaWJhMzVFZHZWLzRlNWZRYzFmT2o4b2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTA4NzQ2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMC4zCnZrRnEyWVlwME9KMXc2Zmp2SXFVbS9JRTA4RmVzZndNZG5MaHpZVUY2YkxXbXE3aFA1djB6Z1ZmZWtQOEpPTDZ2c0lWVjAwQ0tUQ2FPNnA5U2srRENRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.30.3/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRHhtSVJ6dEJ4K2Q4aUp3WnEzT2tWUGVaeUUybDRmZ1VpcDNDU2NPZ2JMSUNVZjFXdU0rWFVaVEZ6dEVJaVdzMUhlMFc5TDEyYm1DVWk3WHlaUnVwVHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDIxNjE2CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMS4wCnIwcGVDV3BlVmNSZ0JhUnc3YVBOTHh3OWF3ZTlkcWZkRXhKQTJCeERkM2g4cnBOR2xYRFgveHdmRk9hdk5DZXU4K2lYN1lDMithZDhYci9wYmE1bkFRPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.31.0/Kage-mac.app.tar.gz"
     }
   }
 }
