@@ -1,11 +1,11 @@
 {
-  "version": "0.32.2",
-  "notes": "Correções:\n\n- o Kage instalado passa a mandar os erros ao projeto kage do GlitchTip",
-  "pub_date": "2026-10-26T16:15:28Z",
+  "version": "0.32.3",
+  "notes": "Mais rápido:\n\n- a janela só carrega o envio de erros quando ele está ligado",
+  "pub_date": "2026-10-26T16:22:04Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDF6cTBNeGZlYTRkVnJnVGErQlN4c2ErakFNRG5wdEtwZ1JpaW53WGZHRGw1RVFQRFU0R3ppSTNLMGxoTVh2Zng0aVVrZUVMeWpvejRXZzc5bDBUNmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDMxMzEyCWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMi4yCmJVdnlmU0E2U0J2ZGNMOGNDNFpFZjI5UERvOHBsN212VnhwdDNxcjlCbE1RK2hqaWJDSk5Sb0U3anE4a0JlQ2w3WHEreW9mSGZhYXZtV1FqeFJBcERRPT0K",
-      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.2/Kage-mac.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVkoxRGNsejZPRDhqdTBSOXdiSk5FMkswRjBJSGVOMHRUZEhvMWcvczJtOXJzTTM0QnZJdXZFUTNOY3cybkNTeEJjaUlBMnJJYXFTWVc4a3NqclJFSThRcVRlR1BZU2drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDMxNjk5CWZpbGU6S2FnZS5hcHAudGFyLmd6CXZlcnNpb246MC4zMi4zCmozMXZuMUoybGZiVW1ZbzZOaFk5M1o5RWZmSlcwVmVDR3F5Y2pwODNZTHd1WE51a2l6cThhY1JacE5hSW5oRDg5VnBRUFVpWThqOTRUQkM0Sm1nbkJBPT0K",
+      "url": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.3/Kage-mac.app.tar.gz"
     }
   }
 }

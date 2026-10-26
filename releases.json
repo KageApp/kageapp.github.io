@@ -1,5 +1,11 @@
 [
   {
+    "version": "0.32.3",
+    "date": "2026-10-26",
+    "notes": "Mais rápido:\n\n- a janela só carrega o envio de erros quando ele está ligado",
+    "dmg": "https://github.com/KageApp/kageapp.github.io/releases/download/v0.32.3/Kage-mac-0.32.3.dmg"
+  },
+  {
     "version": "0.32.2",
     "date": "2026-10-26",
     "notes": "Correções:\n\n- o Kage instalado passa a mandar os erros ao projeto kage do GlitchTip",
